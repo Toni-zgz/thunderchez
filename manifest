@@ -1,6 +1,6 @@
-C initial\simport\n
-D 2016-07-07T18:11:39
-F README.md c817e8aa42e0cb8d237fd858016d69ff27c9d7b4
+C Update\sREADME.md
+D 2016-07-07T18:15:19
+F README.md f452321fa2f00b648ec7f0f8ae467a2f935b1514
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
 F fmt/c.sls cfc0b7299f0e4deee91ce5b73d2ac70b1fe7bf98
@@ -175,7 +175,7 @@ F srfi/tests/testing.sps 77faa269c9281b491d0ba54f168b467b93973bcb
 F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
-P 3012e9c8d9edf8c5d874924b3142f1e9482babc4
-U ovenpasta@pizzahack.eu
-Z 6e139fdc2a55fb8a326681d04fdb1589
+P 80c8c830348aff44fde2153299f41c6323154dbf
+U noreply@github.com
+Z 10e183eb7861584cfc453e5451005b57
 # Remove this line to create a well-formed Fossil manifest.
