@@ -1,6 +1,6 @@
 C Update\sREADME.md
-D 2016-07-07T18:26:27
-F README.md db13139b506819b9da2900c04844a717ce0320b6
+D 2016-07-07T18:27:39
+F README.md 66535c630592a4d36cc4c3e9deeea50e8ec608c6
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
 F fmt/c.sls cfc0b7299f0e4deee91ce5b73d2ac70b1fe7bf98
@@ -175,7 +175,7 @@ F srfi/tests/testing.sps 77faa269c9281b491d0ba54f168b467b93973bcb
 F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
-P 2c324f3f3c641e0bde879448f2db9a4f2253dc29
+P 83251cb8d5304625d3889fde7ecb107f31a94f12
 U noreply@github.com
-Z 887f806b65d248f30e541ecdcbda4dad
+Z 265ae13b25103a92a4dc4694811d67e8
 # Remove this line to create a well-formed Fossil manifest.
