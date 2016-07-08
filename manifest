@@ -1,5 +1,5 @@
-C warning\sin\ssqlite3.sls,\supdated\sREADME\n
-D 2016-07-07T20:53:20
+C added\smore\sfuncs\sto\susb.sls\n
+D 2016-07-08T17:14:50
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
@@ -175,8 +175,8 @@ F srfi/tests/testing.sps 77faa269c9281b491d0ba54f168b467b93973bcb
 F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
-F usb.sls 255e16c8edb1ca286fa16b68e79fb19411067bc0
-P 68e5a476f27b5e89f3fc735cc69b55ed18ca9106
+F usb.sls e0b6804d4e44ce04c21d3b5fadc7aa6d78f35f37
+P 4aff54750fce6172bce7a16c53cca9d33c5bd9ec
 U ovenpasta@pizzahack.eu
-Z c925f17b43816f1a4f47bcc9d01fe82b
+Z c7ec0e4975fb1c0f44befeb6b3740808
 # Remove this line to create a well-formed Fossil manifest.
