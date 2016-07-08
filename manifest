@@ -1,5 +1,5 @@
-C added\smore\sfuncs\sto\susb.sls\n
-D 2016-07-08T17:14:50
+C some\sfixes\sto\susb.sls\sguardians\n
+D 2016-07-08T18:14:49
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
@@ -175,8 +175,8 @@ F srfi/tests/testing.sps 77faa269c9281b491d0ba54f168b467b93973bcb
 F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
-F usb.sls e0b6804d4e44ce04c21d3b5fadc7aa6d78f35f37
-P 4aff54750fce6172bce7a16c53cca9d33c5bd9ec
+F usb.sls 6ee5c140990205077bddbd58a4fbd3c43eaec352
+P 35917dddc4cef98f81b8226eeb096f3bbf883079
 U ovenpasta@pizzahack.eu
-Z c7ec0e4975fb1c0f44befeb6b3740808
+Z f2e9684201753ecff056ac0b58e820da
 # Remove this line to create a well-formed Fossil manifest.
