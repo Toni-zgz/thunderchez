@@ -1,5 +1,5 @@
-C some\sfixes\sto\susb.sls\sguardians\n
-D 2016-07-08T18:14:49
+C now\sload-shared-object\sis\sautomatic\n
+D 2016-07-08T18:31:47
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
@@ -28,7 +28,6 @@ F fmt/test-round.scm 4a5f2429e1a7d9c0dc671d8121074c3ce6d75980
 F match.scm fd5f41ac717a16d5a9da8e101cad3f953faad0fe
 F matchable.sls 217a5ff377fc4bc2a30a7afcbb64ca8d9f39fa93
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
-F sqlite3.scm 0c2a338dbaef1d7ba23f1a652664240ea0aa51a4
 F sqlite3.sls db97a2061e2b9c238f170e92a7f779a3d2bf8039
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
 F srfi/README 262f75f2ee44c2fd427d304244c669b29755e930
@@ -176,7 +175,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 6ee5c140990205077bddbd58a4fbd3c43eaec352
-P 35917dddc4cef98f81b8226eeb096f3bbf883079
+P 97a1a5b4fb091aeb8a6cba10d62ad2b5a6cc65ab
 U ovenpasta@pizzahack.eu
-Z f2e9684201753ecff056ac0b58e820da
+Z db4bbbf58be8c8c8f951acf082ca0944
 # Remove this line to create a well-formed Fossil manifest.
