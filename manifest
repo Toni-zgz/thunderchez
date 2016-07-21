@@ -1,6 +1,7 @@
-C added\sgl,\sirregex,\ssdl2\s-\sremoved\smatch.scm\n
-D 2016-07-09T21:57:07
+C added\sffi\sutils\n
+D 2016-07-21T11:19:59
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
+F ffi-utils.sld da2bc5060af58c31fcd889e88a41a0a059cd023b
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
 F fmt/c.sls cfc0b7299f0e4deee91ce5b73d2ac70b1fe7bf98
@@ -180,7 +181,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P abe3cf174239ed490ef5354f507c5abff1aff199
+P c4f5a3bcd9e8b908d9fcb09b282e0e1176b6197e
 U ovenpasta@pizzahack.eu
-Z 91bb8dec1a7c87f90009bd1bd0593926
+Z c97f846182cc7880c55b899b863a50fa
 # Remove this line to create a well-formed Fossil manifest.
