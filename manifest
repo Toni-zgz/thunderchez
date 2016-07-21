@@ -1,6 +1,7 @@
 C ffi-utils.sls\n
-D 2016-07-21T11:27:09
+D 2016-07-21T11:27:40
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
+F ffi-utils.sls 79177823e5a16352d9fdcb51d8d3192e29d9dc1a
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
 F fmt/c.sls cfc0b7299f0e4deee91ce5b73d2ac70b1fe7bf98
@@ -180,7 +181,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P ce8130716eee80933ec1b9a288dbdca05857f797
+P 6c77a27ecc24f14e70313f1477c5d540b5ca0906
 U ovenpasta@pizzahack.eu
-Z 1f804662e0a1452c12ed44ce5ba46d83
+Z aad282d0f95fcaab504df1856ca5087a
 # Remove this line to create a well-formed Fossil manifest.
