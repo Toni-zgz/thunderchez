@@ -1,7 +1,10 @@
-C ffi-utils.sls\n
-D 2016-07-21T11:27:40
+C cairo\simprovements,\sadded\ssome\stests\n
+D 2016-07-23T07:46:20
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
-F ffi-utils.sls 79177823e5a16352d9fdcb51d8d3192e29d9dc1a
+F cairo-functions.scm d5dfc4c9bcaf86f0fb945ebd6a0124a2d4600d98
+F cairo-test.scm a5f036eeac1abd1caaac694cc60806257ec3101b
+F cairo.sls bf3a839f55eb06f240e7fc23a24f70ed745da781
+F ffi-utils.sls 9cdc3a034471635089f72470123627b64367bf02
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
 F fmt/c.sls cfc0b7299f0e4deee91ce5b73d2ac70b1fe7bf98
@@ -20,7 +23,7 @@ F fmt/fmt.sls fccf520f7e891e9cb95d17a2442a347405763576
 F fmt/hash-compat.scm 7d434b81d7420c4257945916ddc18a2b6f773add
 F fmt/js.sls 50ea8ba39026570ebced730f010d6a4eb82d0d5c
 F fmt/mantissa.scm 3f4af159dc18c2d62e5d2a54182c549d2903a60e
-F fmt/read-line.scm 2a39dd9623f726857b8c774da506a6fbdc902f03
+F fmt/read-line.scm 01c4e9d7b7656ff05f782ed2ac3bfa923c4ffd34
 F fmt/string-ports.scm b7e102ec9f513b591c12529df49d8c9ca5453c56
 F fmt/test-fmt-c.scm 23a1328fcdffcd2af4aeb7b8df0a296751d7c049
 F fmt/test-fmt-js.scm eae56917e020c56106f13ff9b67aa08c772d7aa9
@@ -181,7 +184,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P 6c77a27ecc24f14e70313f1477c5d540b5ca0906
+P f092b13da694428a4737295d7312f4908d0f287b
 U ovenpasta@pizzahack.eu
-Z aad282d0f95fcaab504df1856ca5087a
+Z 62645ec368bbffcfc1447b810ea08c25
 # Remove this line to create a well-formed Fossil manifest.
