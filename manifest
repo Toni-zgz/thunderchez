@@ -1,5 +1,5 @@
-C more\stests\sand\simprovements\son\scairo\n
-D 2016-07-24T21:23:10
+C add\sromeladen.png\sfor\scairo\stests\n
+D 2016-07-24T21:24:02
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
 F cairo-functions.scm d5dfc4c9bcaf86f0fb945ebd6a0124a2d4600d98
 F cairo-test.scm 9a274bc329ac85726c30b244c237abc0b33cc606
@@ -35,6 +35,7 @@ F glut.sls 3de56e892d0253fa096bdcec038f3af6e7969fda
 F irregex-utils.sls 198ea9bf44843c480dfc8bae452762385b222176
 F irregex.sls 91b31943a4abea27dc54b68a39ccd8317b84ee96
 F matchable.sls 1bbbfa3fa3a31cbfa3473767cb883307bd22b3d9
+F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F sdl2.sls 49d8b4c7573df705126e703bfc3ec4afb6ee21c4
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
 F sqlite3.sls cbabd1b509efbaf246a571e4e21965c09eebfd40
@@ -184,7 +185,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P ecd5997790c4995e28b48b923e73c818ee520d25
+P 6ea4d2df39e2ea26795d1932e887cc14fd953566
 U ovenpasta@pizzahack.eu
-Z 76083cb6f055da396d852295d82eb8a6
+Z b57520f4a2d1c851fd9102f6ff45d4b8
 # Remove this line to create a well-formed Fossil manifest.
