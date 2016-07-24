@@ -1,9 +1,9 @@
-C cairo\simprovements,\sadded\ssome\stests\n
-D 2016-07-23T07:46:20
+C more\stests\sand\simprovements\son\scairo\n
+D 2016-07-24T21:23:10
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
 F cairo-functions.scm d5dfc4c9bcaf86f0fb945ebd6a0124a2d4600d98
-F cairo-test.scm a5f036eeac1abd1caaac694cc60806257ec3101b
-F cairo.sls bf3a839f55eb06f240e7fc23a24f70ed745da781
+F cairo-test.scm 9a274bc329ac85726c30b244c237abc0b33cc606
+F cairo.sls e93e6783bf43dfccdea2621b613e3716c3fef4b8
 F ffi-utils.sls 9cdc3a034471635089f72470123627b64367bf02
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
@@ -184,7 +184,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P f092b13da694428a4737295d7312f4908d0f287b
+P ecd5997790c4995e28b48b923e73c818ee520d25
 U ovenpasta@pizzahack.eu
-Z 62645ec368bbffcfc1447b810ea08c25
+Z 76083cb6f055da396d852295d82eb8a6
 # Remove this line to create a well-formed Fossil manifest.
