@@ -1,5 +1,5 @@
-C added\sjson\n
-D 2016-08-17T07:45:18
+C added\ssdl2\n
+D 2016-08-17T07:47:19
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
 F cairo-functions.scm d5dfc4c9bcaf86f0fb945ebd6a0124a2d4600d98
 F cairo-test.scm b668d6c024648818b5e8dd794794d3536f0b6a7f
@@ -59,7 +59,75 @@ F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
 F nanomsg/survey a645560c3d080cc2833f0b61635992a508f536be x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
-F sdl2.sls 49d8b4c7573df705126e703bfc3ec4afb6ee21c4
+F sdl2.sls 48e4516e6f385931778de413f251f80f3444f6d1
+F sdl2/assert-functions.ss 433defbf8eee3edf1a51b44e08f63bf64f4ceb60
+F sdl2/assert-types.ss 2cea3a46e65f36bd9ca7d92242302df96bcab47b
+F sdl2/atomic-functions.ss 88af5b2c9dd5569a105154d826715504f04020e8
+F sdl2/atomic-types.ss 295602b33d35b51e2457b25357cc5e159ddb11ef
+F sdl2/audio-functions.ss bf689e39b50a7a96170b683793ad819d40e24bc8
+F sdl2/audio-types.ss 0b6be0fd2a3c59ba32adf63b9883a9d02f7536e1
+F sdl2/base-types.ss b87b42d97c123c994b563a65dc6e113baf8dd861
+F sdl2/blendmode-types.ss 25a3037ebbf0df087e0f3c80671aa149cb656792
+F sdl2/clipboard-functions.ss 01eed0f20ef0de2a6bd3ffa38ad13f7832724b15
+F sdl2/cpuinfo-functions.ss 6065c4df81d4451c5bb45fa9abde46a323497c4d
+F sdl2/endian-functions.ss c5be3b4ea3ffe1a6559a8b9ed070a6691e7ce7f8
+F sdl2/error-functions.ss 4c7334767c268f59c8ba56f09ed89f155c28db76
+F sdl2/error-types.ss baefb8062a2af5c3bbc9b7dfcd7af77095fe85be
+F sdl2/events-functions.ss 2ee40799bc44aa119ddf117a92919c4df69bcc9d
+F sdl2/events-types.ss 93b27527b6d552fdb4356922603190fde193b506
+F sdl2/ffi.ss 225fe1c9c643acde417036075f52c16cb8322d23
+F sdl2/filesystem-functions.ss 098ca35a4e5fd1e18973d74a0a4eb7b0de3a0a44
+F sdl2/gamecontroller-functions.ss e57b0efe6acd22f6317a7a6eb2524b65775721b2
+F sdl2/gamecontroller-types.ss 1071e03ee473ca446a5a0199300552f0ab649bca
+F sdl2/gesture-functions.ss 1050da24319e5696221eea97474fa43afb4113e0
+F sdl2/gesture-types.ss d6f152bdab08ed3b6c2fc7983ebdaf9d42205f63
+F sdl2/guardian.ss 7e9151d4878bd91ab689e692d40bad707a314290
+F sdl2/hints-functions.ss 81d3b7d5b9650df6578b9852bdc17f6636735a3d
+F sdl2/hints-types.ss ece2ec2aaf6b83a8cc77aeeaf67c37d76012ad9e
+F sdl2/init.ss 7de285e409eff8dd02a8cafba59ad1b31063403f
+F sdl2/joystick-functions.ss bfede9c14b8ecccd9721a5b38d4d92679570604b
+F sdl2/joystick-types.ss 3d32d7b1b92bc9a27a8f9ebc1c40aff349376f0d
+F sdl2/keyboard-functions.ss 83dd221bdda9eb596f6bbd2aadda1966ef7887ae
+F sdl2/keyboard-types.ss d31b624bafcb6c7c44fef7afaa8f71bbeef8d663
+F sdl2/keycode-types.ss c0f86443320d6cc6833f7dc615bc3d9fd6ea969a
+F sdl2/loadso-functions.ss 58daf6f6fb0b42c18ac2aee9635d7f03dc8c03ba
+F sdl2/log-functions.ss b02d27839857d086ce19376b57a22184be029a8e
+F sdl2/main-functions.ss da39852b2f73d4d0742420154cff4fc17697cbf9
+F sdl2/messagebox-functions.ss c242804c99af464487fe77d41a024d00bdf90fc5
+F sdl2/messagebox-types.ss 396be487d3e80e7731c7faf4f67448427ff3eb55
+F sdl2/mouse-functions.ss 4539ad79c729bd01ec4d862da37ea909fd417134
+F sdl2/mouse-types.ss 1bb48fe2a634d735d4c218d9744d4cd0edec6c47
+F sdl2/mutex-functions.ss 5294a4bcc23c8d45440856837172d8fe4ea101d4
+F sdl2/mutex-types.ss 2ac81310755f1f5069682679071c29ac799dd4aa
+F sdl2/parse-sdl-json.ss 781662e24ed5494a4d60de0292be2bfd25da4873
+F sdl2/pixels-functions.ss 15975fd137cb2289d819d97da39bfded82d64aee
+F sdl2/pixels-types.ss de1a53cf555884f60638018a44c60cff2989d8aa
+F sdl2/platform-functions.ss 97dca9a63077f913deb80331cc7d63258376f411
+F sdl2/power-functions.ss 0a6bd3feb787b3d5fe0745a2afda4bb5b9bb5800
+F sdl2/rect-functions.ss 3dad89c09a4610818ce73b772dee27e171613918
+F sdl2/rect-types.ss 84d504280f49a64e8df464d325a9ef1af8104b6a
+F sdl2/render-functions.ss 7b004e39dc4a5cd56ee43cdaa71ebe052a4e4a35
+F sdl2/render-types.ss b38a9e4a3b950c5cdbcf4b86272802d8691ebc16
+F sdl2/romeladen.bmp a4b487683f3d102d5d86b03d11b73a050951be52
+F sdl2/rwops-functions.ss 764ad85780ed29e95a2ee9bd542780b6febc94af
+F sdl2/rwops-types.ss 1ad8537a077ff97538db305a9a59a473f57fd536
+F sdl2/scancode-types.ss e63c97fc59bb277764c96dba73a13cef2b28408d
+F sdl2/sdl-functions.ss 9d9cec609bd1b6d7a701f048c03f300265a0621c
+F sdl2/sdl2.json fc623a45abd49fb524626281b77481bdff4d2c85
+F sdl2/sdl2.sexp b97dc1f1c5eacdcce2b2813761cd11bb473d382a
+F sdl2/surface-functions.ss 6df401eee8d4823d6c5a67eeac238af13a6f4158
+F sdl2/surface-types.ss 225d054c2ecc3b09c4953a27e23f21b6e7b5fcc1
+F sdl2/system-functions.ss 098ca35a4e5fd1e18973d74a0a4eb7b0de3a0a44
+F sdl2/thread-functions.ss 23b2c68a24156b821097bf04fe54d3afaa4c9708
+F sdl2/thread-types.ss ab9657579ae5348990aed4202e694354c18d8983
+F sdl2/timer-functions.ss 03d839a0ce6feec6a96266a89936ee091491a57b
+F sdl2/timer-types.ss 9e89673e192aa93636ac002137ad98250d49b283
+F sdl2/touch-functions.ss 6b68443559d29c8cf693b4bd28871756ece3121b
+F sdl2/touch-types.ss 9b7528fea21d23fd127c82db13cfd91bf4d2dd3f
+F sdl2/version-functions.ss 592812022553ea58978579c11c86961102e1a670
+F sdl2/version-types.ss dedea583b52d7e9b5bfbce377fa8fd90176e01de
+F sdl2/video-functions.ss 59153937362c26e66cad7a1f758631ec89111f72
+F sdl2/video-types.ss c12247bcf8de0c712b8fa4656c817978071d4c0a
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
 F sqlite3.sls cbabd1b509efbaf246a571e4e21965c09eebfd40
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
@@ -208,7 +276,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P 89d5aac0dcd9616e8f9374e983b57c8c51c57889
+P c00740301b7ee14ba96aa326e0a72ffc25338508
 U ovenpasta@pizzahack.eu
-Z b4556bf47c0772fc5fb5cc964882beb9
+Z 331eae4673825d97a9ff8e1dfee1a5f3
 # Remove this line to create a well-formed Fossil manifest.
