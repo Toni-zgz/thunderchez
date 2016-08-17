@@ -1,6 +1,6 @@
-C fixed\ssurvey\stest\sfor\snanomsg\n
-D 2016-08-17T08:03:45
-F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
+C README.md\supdated\sa\slittle\sbit\n
+D 2016-08-17T08:18:38
+F README.md 4e7c7d29552e1e56c0ecc4ddf590963e611ea3bc
 F cairo-functions.scm d5dfc4c9bcaf86f0fb945ebd6a0124a2d4600d98
 F cairo-test.scm b668d6c024648818b5e8dd794794d3536f0b6a7f
 F cairo.sls f2a0c7136c78be0b3bcb20ca83c57a491374fe73
@@ -276,7 +276,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P c9770d8f7fc62709f9291c04ff523112e0d525dc
+P b7b9cf10652e05490f5c5a6e5934f0207c4a0a8f
 U ovenpasta@pizzahack.eu
-Z 00c5b6f0d66ddb142b41d40d62e1f48d
+Z 24df7e689121f0e117c30a2516fd6391
 # Remove this line to create a well-formed Fossil manifest.
