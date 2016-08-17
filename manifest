@@ -1,5 +1,5 @@
-C fixed\ssmall\sbug\sin\snn-recv\n
-D 2016-08-17T10:43:56
+C added\snanomsg\srepl\sexample\n
+D 2016-08-17T11:49:37
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F cairo-functions.scm d5dfc4c9bcaf86f0fb945ebd6a0124a2d4600d98
 F cairo-test.scm b668d6c024648818b5e8dd794794d3536f0b6a7f
@@ -52,9 +52,11 @@ F lalr/lalr.ss 077385b729f415b9cf7d3bc04c8d14b5fb609035
 F matchable.sls 1bbbfa3fa3a31cbfa3473767cb883307bd22b3d9
 F nanomsg.sls 90ea68c14470d27cb482839a41b653cbe1f182d7
 F nanomsg/bus c3a7129577312fa79c835392687d5bc04c73983a x
+F nanomsg/local-repl da0de5feb8c6b91e926c82167d7a5237d2eb00e6 x
 F nanomsg/pair c7bfab5957144a27020b66b1acf5da2a7c8ddea5 x
 F nanomsg/pipeline 5b8c34330aff2730c45ee80916d9ff787de4689e x
 F nanomsg/pubsub d3bcbb3ac013a8f8898e2ec7b0cb9c8bc188fad7 x
+F nanomsg/remote-repl 1e4d9b618265f47556303ebcb9e798f637536281 x
 F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
 F nanomsg/survey ed99458b4cd07252f80d08f16c49131791209834 x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
@@ -276,7 +278,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P 23060469234be0810e67f4644bbdf195499557bc
+P 1e3d1ba295b25672a783286923bb9603f5170a8a
 U ovenpasta@pizzahack.eu
-Z 89e20cf17dae787db80df94b91f34f8c
+Z 7a0bec48ed53d7fd6926d3639ccd8dd4
 # Remove this line to create a well-formed Fossil manifest.
