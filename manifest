@@ -1,5 +1,5 @@
-C added\slalr\n
-D 2016-08-17T07:45:09
+C added\sjson\n
+D 2016-08-17T07:45:18
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
 F cairo-functions.scm d5dfc4c9bcaf86f0fb945ebd6a0124a2d4600d98
 F cairo-test.scm b668d6c024648818b5e8dd794794d3536f0b6a7f
@@ -44,6 +44,7 @@ F glu.sls 8200e1174cb38c63c68d171685e8f0327d611f5b
 F glut.sls 3de56e892d0253fa096bdcec038f3af6e7969fda
 F irregex-utils.sls 198ea9bf44843c480dfc8bae452762385b222176
 F irregex.sls 91b31943a4abea27dc54b68a39ccd8317b84ee96
+F json.sls 7bb2d6a861395f9e37a4276653af56c3206b2562
 F lalr/README 84dd973836e11f277f5a88ddc8933cc2a43a2f8e
 F lalr/associators.ss f4bcc1a3770c3c417d38613fa967cc683c078dad
 F lalr/lalr-test.ss 89949d7adc1ddd11fd20a132d91e3a2fd003f48c
@@ -207,7 +208,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P 5dd44639937379cca4eacf5b3c0a6e871ffceb9b
+P 89d5aac0dcd9616e8f9374e983b57c8c51c57889
 U ovenpasta@pizzahack.eu
-Z b0725c87c7aa0ec3d5536f6199cfb098
+Z b4556bf47c0772fc5fb5cc964882beb9
 # Remove this line to create a well-formed Fossil manifest.
