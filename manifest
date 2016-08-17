@@ -1,9 +1,19 @@
-C nanomsg\serror\shandling\sand\sother\sfixes\n
-D 2016-08-17T07:41:06
+C added\scairo\n
+D 2016-08-17T07:42:08
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
 F cairo-functions.scm d5dfc4c9bcaf86f0fb945ebd6a0124a2d4600d98
 F cairo-test.scm b668d6c024648818b5e8dd794794d3536f0b6a7f
-F cairo.sls e93e6783bf43dfccdea2621b613e3716c3fef4b8
+F cairo.sls f2a0c7136c78be0b3bcb20ca83c57a491374fe73
+F cairo/cairo-functions.ss e453a0dfb609ceee459fa2a14ca425f84a3944ee
+F cairo/cairo-pdf-functions.ss c55bee7a25407068a45a670fcbef4658d9eb1be2
+F cairo/cairo-pdf.json c1cb1cdf654b3e7295c197694a4b1600e7cdf103
+F cairo/cairo-pdf.sexp 96272c21f42a5ed483a85db3b7d8c560c69f1d7a
+F cairo/cairo.json 5b7e921453eb868267205896a04b82b6850822c1
+F cairo/cairo.sexp 67e00b093990ab421ec53667979cb2029a5824e6
+F cairo/ffi-utils.ss c3ef9a01b587e014bb3598d8adde0ba7446fe4de
+F cairo/parse-json.ss 083a4695b870ea368bb43495e3a0fdb365e2464c
+F cairo/test.ss 964a27d1e720d50804134d6a8f23184226b56433
+F cairo/types.ss 2541453d9de0ceed32d62c6088a681ca29488d4a
 F ffi-utils.sls 9cdc3a034471635089f72470123627b64367bf02
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
@@ -193,7 +203,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P bac484c8c0193d3d402b0815ab57ca999030015c
+P 590cb5e90598a4238305665925ee77c32573f8ed
 U ovenpasta@pizzahack.eu
-Z 8062553a9830fe901264029d091757eb
+Z fcdb8573bc8be5306bca48abadeccaec
 # Remove this line to create a well-formed Fossil manifest.
