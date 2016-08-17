@@ -1,5 +1,5 @@
-C added\ssdl2\n
-D 2016-08-17T07:47:19
+C fixed\ssurvey\stest\sfor\snanomsg\n
+D 2016-08-17T08:03:45
 F README.md 10532f82b2ea6855a415d715abd5c96a409893c7
 F cairo-functions.scm d5dfc4c9bcaf86f0fb945ebd6a0124a2d4600d98
 F cairo-test.scm b668d6c024648818b5e8dd794794d3536f0b6a7f
@@ -56,7 +56,7 @@ F nanomsg/pair c7bfab5957144a27020b66b1acf5da2a7c8ddea5 x
 F nanomsg/pipeline 5b8c34330aff2730c45ee80916d9ff787de4689e x
 F nanomsg/pubsub d3bcbb3ac013a8f8898e2ec7b0cb9c8bc188fad7 x
 F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
-F nanomsg/survey a645560c3d080cc2833f0b61635992a508f536be x
+F nanomsg/survey ed99458b4cd07252f80d08f16c49131791209834 x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F sdl2.sls 48e4516e6f385931778de413f251f80f3444f6d1
@@ -276,7 +276,7 @@ F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P c00740301b7ee14ba96aa326e0a72ffc25338508
+P c9770d8f7fc62709f9291c04ff523112e0d525dc
 U ovenpasta@pizzahack.eu
-Z 331eae4673825d97a9ff8e1dfee1a5f3
+Z 00c5b6f0d66ddb142b41d40d62e1f48d
 # Remove this line to create a well-formed Fossil manifest.
