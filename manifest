@@ -1,8 +1,7 @@
-C added\snanomsg\srepl\sexample\n
-D 2016-08-17T11:49:37
+C various\simprovements,\sadded\slmdb\s,\sadded\slicense\snotices\n
+D 2016-09-01T08:27:10
+F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
-F cairo-functions.scm d5dfc4c9bcaf86f0fb945ebd6a0124a2d4600d98
-F cairo-test.scm b668d6c024648818b5e8dd794794d3536f0b6a7f
 F cairo.sls f2a0c7136c78be0b3bcb20ca83c57a491374fe73
 F cairo/cairo-functions.ss e453a0dfb609ceee459fa2a14ca425f84a3944ee
 F cairo/cairo-pdf-functions.ss c55bee7a25407068a45a670fcbef4658d9eb1be2
@@ -12,6 +11,7 @@ F cairo/cairo.json 5b7e921453eb868267205896a04b82b6850822c1
 F cairo/cairo.sexp 67e00b093990ab421ec53667979cb2029a5824e6
 F cairo/ffi-utils.ss c3ef9a01b587e014bb3598d8adde0ba7446fe4de
 F cairo/parse-json.ss 083a4695b870ea368bb43495e3a0fdb365e2464c
+F cairo/romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F cairo/test.ss 964a27d1e720d50804134d6a8f23184226b56433
 F cairo/types.ss 2541453d9de0ceed32d62c6088a681ca29488d4a
 F ffi-utils.sls 9cdc3a034471635089f72470123627b64367bf02
@@ -39,6 +39,12 @@ F fmt/test-fmt-c.scm 23a1328fcdffcd2af4aeb7b8df0a296751d7c049
 F fmt/test-fmt-js.scm eae56917e020c56106f13ff9b67aa08c772d7aa9
 F fmt/test-fmt.scm e26b7f0552d554a4aa2e6fc39bd817137ed016e0
 F fmt/test-round.scm 4a5f2429e1a7d9c0dc671d8121074c3ce6d75980
+F foof/irregex-r6rs.scm e94e96daf90909efaec71446330048f7fee147dd
+F foof/irregex-utils.scm 4eda8967bd4b4d7c6ee2163502792effee46badc
+F foof/irregex-utils.sls c6c9da30997462e76427ac3b38b2a7e5c4d92bd6
+F foof/irregex.sls ff76b7d0fb065dd18da5ee28d8d666e0412b17fe
+F foof/match.scm 49d6d8243534ff0f26dd7ed384c77f55e9f02ae2
+F foof/match.sls 72b9797847ad5e6bceee24f3bb50104216a53ffe
 F gl.sls 66eb368619130351723f56da9a35fca5d99eed4a
 F glu.sls 8200e1174cb38c63c68d171685e8f0327d611f5b
 F glut.sls 3de56e892d0253fa096bdcec038f3af6e7969fda
@@ -49,6 +55,17 @@ F lalr/README 84dd973836e11f277f5a88ddc8933cc2a43a2f8e
 F lalr/associators.ss f4bcc1a3770c3c417d38613fa967cc683c078dad
 F lalr/lalr-test.ss 89949d7adc1ddd11fd20a132d91e3a2fd003f48c
 F lalr/lalr.ss 077385b729f415b9cf7d3bc04c8d14b5fb609035
+F lmdb.sls 0ea242964ee8b02bd0a17dc5186ff552f7767ab8
+F lmdb/constants.ss 2d69eac56b433f6a4f42748ca5d7c9f1843de8da
+F lmdb/enums.ss 12ec7525c022eb8ca0fe0bd319c3a35d30a1c1a1
+F lmdb/ffi.ss 78fb417fba0fc577d95d2632602b0186ab9b5bd6
+F lmdb/ftypes.ss 3318b2fd8292220f06b49133292bbe3365be1d7f
+F lmdb/guardian.ss 488b74c90c821abfbab2f99db233b6e0e028aa4a
+F lmdb/lmdb-functions.ss 589b9e8c2b41fe189b07a2b12ff12271b9df0fa5
+F lmdb/mtest.ss 0a1f256c2d4e8a8251a37e74165a016498382c92
+F lmdb/parse-json.ss 2267e4dc04b9b5fd3323d8efd651fbe03442490f
+F match.html c4d2e35bf279b1e2b070c4135cc29aa84ed01c41
+F match.ss 1996444b8836768d7abcfd276d07a56d33dc9df1
 F matchable.sls 1bbbfa3fa3a31cbfa3473767cb883307bd22b3d9
 F nanomsg.sls 90ea68c14470d27cb482839a41b653cbe1f182d7
 F nanomsg/bus c3a7129577312fa79c835392687d5bc04c73983a x
@@ -77,6 +94,7 @@ F sdl2/error-functions.ss 4c7334767c268f59c8ba56f09ed89f155c28db76
 F sdl2/error-types.ss baefb8062a2af5c3bbc9b7dfcd7af77095fe85be
 F sdl2/events-functions.ss 2ee40799bc44aa119ddf117a92919c4df69bcc9d
 F sdl2/events-types.ss 93b27527b6d552fdb4356922603190fde193b506
+F sdl2/extras.ss aa13b6fd79a533b2b37cee83a26a86ea892cabea
 F sdl2/ffi.ss 225fe1c9c643acde417036075f52c16cb8322d23
 F sdl2/filesystem-functions.ss 098ca35a4e5fd1e18973d74a0a4eb7b0de3a0a44
 F sdl2/gamecontroller-functions.ss e57b0efe6acd22f6317a7a6eb2524b65775721b2
@@ -101,6 +119,9 @@ F sdl2/mouse-functions.ss 4539ad79c729bd01ec4d862da37ea909fd417134
 F sdl2/mouse-types.ss 1bb48fe2a634d735d4c218d9744d4cd0edec6c47
 F sdl2/mutex-functions.ss 5294a4bcc23c8d45440856837172d8fe4ea101d4
 F sdl2/mutex-types.ss 2ac81310755f1f5069682679071c29ac799dd4aa
+F sdl2/net-functions.ss b70ffbaf04e04788a0bba898db1b9b7201b15bab
+F sdl2/net-types.ss fbee7196629906d0b662533a42d1212e35cb32a6
+F sdl2/net.sls 67de3d726d14e0ab74c6a0206a7eb4dac5cdae00
 F sdl2/parse-sdl-json.ss 781662e24ed5494a4d60de0292be2bfd25da4873
 F sdl2/pixels-functions.ss 15975fd137cb2289d819d97da39bfded82d64aee
 F sdl2/pixels-types.ss de1a53cf555884f60638018a44c60cff2989d8aa
@@ -115,8 +136,10 @@ F sdl2/rwops-functions.ss 764ad85780ed29e95a2ee9bd542780b6febc94af
 F sdl2/rwops-types.ss 1ad8537a077ff97538db305a9a59a473f57fd536
 F sdl2/scancode-types.ss e63c97fc59bb277764c96dba73a13cef2b28408d
 F sdl2/sdl-functions.ss 9d9cec609bd1b6d7a701f048c03f300265a0621c
+F sdl2/sdl2-net.json 3df611ea50e999f74f4f41149aef28deb0f7f618
+F sdl2/sdl2-net.sexp b1470ea61ac73c635d352cd03b5790d0c187113d
 F sdl2/sdl2.json fc623a45abd49fb524626281b77481bdff4d2c85
-F sdl2/sdl2.sexp b97dc1f1c5eacdcce2b2813761cd11bb473d382a
+F sdl2/sdl2.sexp a431e6aacafdad79d25fbd6a366a52b99008e7c8
 F sdl2/surface-functions.ss 6df401eee8d4823d6c5a67eeac238af13a6f4158
 F sdl2/surface-types.ss 225d054c2ecc3b09c4953a27e23f21b6e7b5fcc1
 F sdl2/system-functions.ss 098ca35a4e5fd1e18973d74a0a4eb7b0de3a0a44
@@ -277,8 +300,9 @@ F srfi/tests/testing.sps 77faa269c9281b491d0ba54f168b467b93973bcb
 F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
+F thunder-utils.sls 49ab76ab6d328a040b2195ed068a33b01464b783
 F usb.sls 4a954e673b70beb057c4dbc58e142be3ba226e15
-P 1e3d1ba295b25672a783286923bb9603f5170a8a
+P 4228556d4bbb9009114009274b0597d61653c5e6
 U ovenpasta@pizzahack.eu
-Z 7a0bec48ed53d7fd6926d3639ccd8dd4
+Z b0e45178d855fee5b3749d417383c48c
 # Remove this line to create a well-formed Fossil manifest.
