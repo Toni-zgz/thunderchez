@@ -1,5 +1,5 @@
-C added\smissing\sfile\schanges
-D 2016-09-04T14:50:46.402
+C added\sauxiliary-keyword
+D 2016-09-04T14:55:04.695
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F cairo.sls 9303ad5ca191d9fffc80ac90bde433453ef9db9e
@@ -158,6 +158,7 @@ F sqlite3.sls cbabd1b509efbaf246a571e4e21965c09eebfd40
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
 F srfi/README 262f75f2ee44c2fd427d304244c669b29755e930
 F srfi/private/OS-id-features.sls d18764a9fcdda3704b7c2a4710f05f8210a3ae2f
+F srfi/private/auxiliary-keyword.sls 2df7a6a9868ca434f45ccf530d3ffd92b7b5d624
 F srfi/private/feature-cond.sls 1a0c3d6d59ad52ff4627cb32c9e8da00043be33d
 F srfi/private/include.sls ca4196c3cc2112620994dfdf87d205a8b3296806
 F srfi/private/include/compat.chezscheme.sls 677bdb8e29b5502f66ccc822300521d81b1b8851
@@ -301,8 +302,8 @@ F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F thunder-utils.sls 49ab76ab6d328a040b2195ed068a33b01464b783
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 112a40d0186531a24859cd4206526ff6b210a9b1
-R 09ecfdea09986607e88f48429f31800d
+P b358a80757ed80c775fc17efc417e252cafaddc1
+R fd81ff9dc326f8c5242bc0fd8fd514a8
 U aldo
-Z 9ba9aa6431817f53dee793a1b1ce50c5
+Z 2b7e430e9eca2f9f51630832bcf15c7a
 # Remove this line to create a well-formed Fossil manifest.
