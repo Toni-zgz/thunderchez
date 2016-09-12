@@ -1,5 +1,5 @@
-C added\sauxiliary-keyword
-D 2016-09-04T14:55:04.695
+C added\ssome\skeyboard\sfunctions
+D 2016-09-12T17:31:52.992
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F cairo.sls 9303ad5ca191d9fffc80ac90bde433453ef9db9e
@@ -78,7 +78,7 @@ F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
 F nanomsg/survey ed99458b4cd07252f80d08f16c49131791209834 x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
-F sdl2.sls 00297bf7bdac9972e6c67f3443657ecbc43d8cc9
+F sdl2.sls b1e2d41d9cd657ea905804d8e08aac85ef991152
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
 F sdl2/assert-types.ss 0e134654a046b80888447f915d45aaec97b2b9fe
 F sdl2/atomic-functions.ss 88af5b2c9dd5569a105154d826715504f04020e8
@@ -94,7 +94,7 @@ F sdl2/error-functions.ss 4c7334767c268f59c8ba56f09ed89f155c28db76
 F sdl2/error-types.ss d07e575f34ebe3a5b7d5f095cf3425d9a3c98d7e
 F sdl2/events-functions.ss 2ee40799bc44aa119ddf117a92919c4df69bcc9d
 F sdl2/events-types.ss 0f51d0dd85009faa4feca07353b18b0e74bfda25
-F sdl2/extras.ss aa13b6fd79a533b2b37cee83a26a86ea892cabea
+F sdl2/extras.ss f144e156601cc8abda76591b8c0d2cf5dabc4d05
 F sdl2/ffi.ss 225fe1c9c643acde417036075f52c16cb8322d23
 F sdl2/filesystem-functions.ss 098ca35a4e5fd1e18973d74a0a4eb7b0de3a0a44
 F sdl2/gamecontroller-functions.ss fcd837835c1061ef161affde14eccc4b13eadeea
@@ -302,8 +302,8 @@ F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F thunder-utils.sls 49ab76ab6d328a040b2195ed068a33b01464b783
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P b358a80757ed80c775fc17efc417e252cafaddc1
-R fd81ff9dc326f8c5242bc0fd8fd514a8
+P 8d5903b93cdd83c40e2aaeefe484475c92eddd1d
+R 8a43a92b38eb63b846aa133c3cfe15d9
 U aldo
-Z 2b7e430e9eca2f9f51630832bcf15c7a
+Z 043fd922c749c9d7969f41e166706766
 # Remove this line to create a well-formed Fossil manifest.
