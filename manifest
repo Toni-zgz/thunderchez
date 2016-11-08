@@ -1,5 +1,5 @@
-C removed\scut.scm\s,\swas\srenamed\sto\scut-impl.scm\s(ops)
-D 2016-10-31T14:03:32.279
+C fixed\sbug\sin\ssdl-library-init
+D 2016-11-08T16:17:36.774
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F cairo.sls 9303ad5ca191d9fffc80ac90bde433453ef9db9e
@@ -104,7 +104,7 @@ F sdl2/gesture-types.ss 2513a3158900a7bdeb414d323b4f4b735ce860cb
 F sdl2/guardian.ss ca6021b044843496b99cfb727af8666a7c3a246b
 F sdl2/hints-functions.ss 81d3b7d5b9650df6578b9852bdc17f6636735a3d
 F sdl2/hints-types.ss 7b6119bf3781428ecc69eda4ed326593af2ead07
-F sdl2/init.ss 7de285e409eff8dd02a8cafba59ad1b31063403f
+F sdl2/init.ss 9164e688a1f46e88936ae4ffb632f94100a19ca2
 F sdl2/joystick-functions.ss 253784d8c7a153691f2c8a71682300b2983c3a28
 F sdl2/joystick-types.ss 8acb4427884c8a1751f95593e21664d8e9bdbb56
 F sdl2/keyboard-functions.ss 83dd221bdda9eb596f6bbd2aadda1966ef7887ae
@@ -302,8 +302,8 @@ F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F thunder-utils.sls 49ab76ab6d328a040b2195ed068a33b01464b783
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 31d22b4672d384f624d721ca70d79448fe181760
-R f36acac78717eda3c2d1b955cc45aebb
+P 81f6a87eca7ee88467b1c671caaa1c4cdd3a5dd9
+R c34f147b16a85aca435f680b7b034509
 U aldo
-Z 1479ff5ffb4790f179b449d2564fe8cd
+Z edd6206e463dae3aba221a620c2d637a
 # Remove this line to create a well-formed Fossil manifest.
