@@ -1,5 +1,5 @@
-C fixed\sbug\sin\ssdl-library-init
-D 2016-11-08T16:17:36.774
+C added\snetstring\slib
+D 2016-12-04T20:47:32.505
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F cairo.sls 9303ad5ca191d9fffc80ac90bde433453ef9db9e
@@ -77,6 +77,7 @@ F nanomsg/remote-repl 3d70a1afe058bfa85626652b1cfb68c2a8980f98 x
 F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
 F nanomsg/survey ed99458b4cd07252f80d08f16c49131791209834 x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
+F netstring.sls 81c6b3a4e403c79e550c4d57247426c1c15691fd
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F sdl2.sls b1e2d41d9cd657ea905804d8e08aac85ef991152
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
@@ -302,8 +303,8 @@ F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F thunder-utils.sls 49ab76ab6d328a040b2195ed068a33b01464b783
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 81f6a87eca7ee88467b1c671caaa1c4cdd3a5dd9
-R c34f147b16a85aca435f680b7b034509
+P af432e7ef4434dabbf467ef8b40f435135ce5dab
+R 6ef0ae6909cab077b058bad2981739fc
 U aldo
-Z edd6206e463dae3aba221a620c2d637a
+Z c70adb652ed8bf12a51218030cc37cf8
 # Remove this line to create a well-formed Fossil manifest.
