@@ -1,5 +1,5 @@
-C added\ssxml
-D 2016-12-05T22:06:12.115
+C added\sto-html\sand\stree-trans\sto\ssxml
+D 2016-12-05T22:28:44.597
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F cairo.sls 9303ad5ca191d9fffc80ac90bde433453ef9db9e
@@ -309,11 +309,13 @@ F sxml/ssax-impl.ss 819fd193a4b1d7648deb0e4ab14381d5c454e9ba
 F sxml/ssax.sls df42dc931bdc8260eccf88a7e256ce17593f87d1
 F sxml/sxpath-impl.ss 99ad89357558a192cf476500d3892e0b9e556a1b
 F sxml/sxpath.sls 42a0150f777e24590ca6997af56d520b1a6d8b54
-F sxml/utils.ss b3af783643e149ab485deac6dd523115758ed517
+F sxml/to-html.sls 2bf2993488a7982e55ec83dd06102dcbea609ef3
+F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
+F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls 49ab76ab6d328a040b2195ed068a33b01464b783
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 54b0f0d169876d9264c13caf32df7f8ff02653ad
-R 7ba3dc1f94846a2b91bedc4b172ed9f1
+P 837939cf407b8617ff20fd3bfa25d8c4724a7226
+R 3e8b9f52985540f0a7ba55808c5b10c1
 U aldo
-Z 217c9123d70351422734bffaf9e0d72a
+Z 1cbe6fefab224acc424d9600220ab514
 # Remove this line to create a well-formed Fossil manifest.
