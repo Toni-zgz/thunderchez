@@ -1,5 +1,5 @@
-C added\snetstring\slib
-D 2016-12-04T20:47:32.505
+C added\ssxml
+D 2016-12-05T22:06:12.115
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F cairo.sls 9303ad5ca191d9fffc80ac90bde433453ef9db9e
@@ -301,10 +301,19 @@ F srfi/tests/testing.sps 77faa269c9281b491d0ba54f168b467b93973bcb
 F srfi/tests/time.sps 2ca3030c1a7aaffec76cdbff0daebe36dd687d10
 F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
+F sxml.sls 5697c1e5311b5a6babc994dc1ae7bc5d2cae5ba9
+F sxml/README.md 64570767511fab6d06c356b72a3c0194542fe505
+F sxml/SXML-to-HTML.scm a00b9bc5b963cd27d91bbeeed303c60a3d20312f
+F sxml/SXML-tree-trans.scm 5feeeb3a6e444bf8ef7ae0e342e5bf2e6ce4865e
+F sxml/ssax-impl.ss 819fd193a4b1d7648deb0e4ab14381d5c454e9ba
+F sxml/ssax.sls df42dc931bdc8260eccf88a7e256ce17593f87d1
+F sxml/sxpath-impl.ss 99ad89357558a192cf476500d3892e0b9e556a1b
+F sxml/sxpath.sls 42a0150f777e24590ca6997af56d520b1a6d8b54
+F sxml/utils.ss b3af783643e149ab485deac6dd523115758ed517
 F thunder-utils.sls 49ab76ab6d328a040b2195ed068a33b01464b783
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P af432e7ef4434dabbf467ef8b40f435135ce5dab
-R 6ef0ae6909cab077b058bad2981739fc
+P 54b0f0d169876d9264c13caf32df7f8ff02653ad
+R 7ba3dc1f94846a2b91bedc4b172ed9f1
 U aldo
-Z c70adb652ed8bf12a51218030cc37cf8
+Z 217c9123d70351422734bffaf9e0d72a
 # Remove this line to create a well-formed Fossil manifest.
