@@ -1,5 +1,5 @@
-C minor\sfix\son\swith-mktemp
-D 2016-12-08T00:57:25.086
+C eqv?\sor\szero?\sinstead\sof\seq?\ssomewhere
+D 2016-12-08T01:27:14.331
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 003262048d41e711ce7e8aef552e841f16b2afd7
@@ -79,7 +79,7 @@ F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
 F nanomsg/survey ed99458b4cd07252f80d08f16c49131791209834 x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
 F netstring.sls 81c6b3a4e403c79e550c4d57247426c1c15691fd
-F posix.sls c08dc1bf4c7ae08ce1a930594dc62451b03d334d
+F posix.sls bdfeb632bf9561ea74204c0e6b78c668ea39aab8
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F sdl2.sls b1e2d41d9cd657ea905804d8e08aac85ef991152
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
@@ -97,7 +97,7 @@ F sdl2/error-functions.ss 4c7334767c268f59c8ba56f09ed89f155c28db76
 F sdl2/error-types.ss d07e575f34ebe3a5b7d5f095cf3425d9a3c98d7e
 F sdl2/events-functions.ss 2ee40799bc44aa119ddf117a92919c4df69bcc9d
 F sdl2/events-types.ss 0f51d0dd85009faa4feca07353b18b0e74bfda25
-F sdl2/extras.ss f144e156601cc8abda76591b8c0d2cf5dabc4d05
+F sdl2/extras.ss c8ac5896f5e9bb5da98b212048b597745eec127f
 F sdl2/ffi.ss 225fe1c9c643acde417036075f52c16cb8322d23
 F sdl2/filesystem-functions.ss 098ca35a4e5fd1e18973d74a0a4eb7b0de3a0a44
 F sdl2/gamecontroller-functions.ss fcd837835c1061ef161affde14eccc4b13eadeea
@@ -314,10 +314,10 @@ F sxml/sxpath.sls 42a0150f777e24590ca6997af56d520b1a6d8b54
 F sxml/to-html.sls 2bf2993488a7982e55ec83dd06102dcbea609ef3
 F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
-F thunder-utils.sls e0343d8a4c68a91d1276024a86d449296bc3d4b5
+F thunder-utils.sls 88807030f312920d7883b03c3844b5e9ef683fa1
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P d1aa1ba6b3e99285ae629224ef15b94ccd311cb8
-R 93333d71478411fd089cc38c62382549
+P 778dd320bbf4de7d863e4d2ce1ce5d6a2cbfa721
+R d5022847cbf3c1ce907baf9afddf26b9
 U aldo
-Z 766b4b37525ad4f7dad20f6f2703af2b
+Z d4d1ae3d9a10ec60378edb131c4e4b7e
 # Remove this line to create a well-formed Fossil manifest.
