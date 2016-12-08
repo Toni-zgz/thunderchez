@@ -1,5 +1,5 @@
-C added\slibinit\sto\ssqlite3
-D 2016-12-08T00:45:12.877
+C minor\sfix\son\swith-mktemp
+D 2016-12-08T00:57:25.086
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 003262048d41e711ce7e8aef552e841f16b2afd7
@@ -79,7 +79,7 @@ F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
 F nanomsg/survey ed99458b4cd07252f80d08f16c49131791209834 x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
 F netstring.sls 81c6b3a4e403c79e550c4d57247426c1c15691fd
-F posix.sls 0ad34ade5634519fdc1442698c096b1b10589499
+F posix.sls c08dc1bf4c7ae08ce1a930594dc62451b03d334d
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F sdl2.sls b1e2d41d9cd657ea905804d8e08aac85ef991152
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
@@ -316,8 +316,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls e0343d8a4c68a91d1276024a86d449296bc3d4b5
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P a71834a427f07b00fc0bdbb4782eec20765a3f83
-R 4c741678ca1ca6fc34413b9c6d716166
+P d1aa1ba6b3e99285ae629224ef15b94ccd311cb8
+R 93333d71478411fd089cc38c62382549
 U aldo
-Z 17c7e9614c4605df2b96621f9f87d434
+Z 766b4b37525ad4f7dad20f6f2703af2b
 # Remove this line to create a well-formed Fossil manifest.
