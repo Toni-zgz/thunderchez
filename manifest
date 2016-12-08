@@ -1,5 +1,5 @@
-C minor\sfixes\son\scairo
-D 2016-12-08T00:39:41.945
+C moved\scast\sand\schar*->bytevector\sto\sffi-utils
+D 2016-12-08T00:41:28.807
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 003262048d41e711ce7e8aef552e841f16b2afd7
@@ -15,7 +15,7 @@ F cairo/parse-json.ss a7c60606e9bd33dfff7dd57715b2ad225bbb6272
 F cairo/romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F cairo/test.ss cd94c919f0bca07afdef22f2544eae81557690db
 F cairo/types.ss 83f2c774f9c60a13d94858706ef11f83a3dc41f4
-F ffi-utils.sls e369606ef3feea8d10a0f1ca2b60b07821edb288
+F ffi-utils.sls b6b8c09c0b7ff2eba391a4efa8d0cb357cb58514
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
 F fmt/c.sls cfc0b7299f0e4deee91ce5b73d2ac70b1fe7bf98
@@ -68,7 +68,7 @@ F lmdb/parse-json.ss f91b0c26deb333b2c5a1c47e7c65b040afe03698
 F match.html c4d2e35bf279b1e2b070c4135cc29aa84ed01c41
 F match.ss 00ee082ba05dc55dfbb7dc843f74f4aa64325c9d
 F matchable.sls da0a355b270aa7ef20457e2124761cffa1018e57
-F nanomsg.sls 13368259e0becd08d3dadf9595373d668c6017d9
+F nanomsg.sls d2a2af90fa56f25aa3283d8396e8812254316a72
 F nanomsg/bus c3a7129577312fa79c835392687d5bc04c73983a x
 F nanomsg/local-repl 682b6eea78199d77ce33102cce319ff31a0383e3 x
 F nanomsg/pair c7bfab5957144a27020b66b1acf5da2a7c8ddea5 x
@@ -316,8 +316,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls e0343d8a4c68a91d1276024a86d449296bc3d4b5
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 3efc59d40134e40926ade0b517865a8f48e2acbe
-R 4685e14b40934aaaac3f073675a1bb9d
+P 35fd13c928d2842c158971314c6034677db587c3
+R e26c3406e22430639cce30b8e10ea2a0
 U aldo
-Z 93395935327e062a339bcb7d284b701f
+Z 365ce306bbb91cf7bbaa6bd3c0335df5
 # Remove this line to create a well-formed Fossil manifest.
