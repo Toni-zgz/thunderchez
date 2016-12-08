@@ -1,5 +1,5 @@
-C improved\sstring-split
-D 2016-12-08T00:37:32.071
+C improved\serror\sinfo\sform\smatchable
+D 2016-12-08T00:38:23.096
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 003262048d41e711ce7e8aef552e841f16b2afd7
@@ -67,7 +67,7 @@ F lmdb/mtest.ss 19975b64c93db9e96c8624b323c2a2a1dc713fdb
 F lmdb/parse-json.ss f91b0c26deb333b2c5a1c47e7c65b040afe03698
 F match.html c4d2e35bf279b1e2b070c4135cc29aa84ed01c41
 F match.ss 00ee082ba05dc55dfbb7dc843f74f4aa64325c9d
-F matchable.sls 1bbbfa3fa3a31cbfa3473767cb883307bd22b3d9
+F matchable.sls da0a355b270aa7ef20457e2124761cffa1018e57
 F nanomsg.sls 13368259e0becd08d3dadf9595373d668c6017d9
 F nanomsg/bus c3a7129577312fa79c835392687d5bc04c73983a x
 F nanomsg/local-repl 682b6eea78199d77ce33102cce319ff31a0383e3 x
@@ -316,8 +316,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls e0343d8a4c68a91d1276024a86d449296bc3d4b5
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 56b242ceac0ca4849c676988a238d7572dac58ac
-R 17bef93ad0e6b5dde5ffe66c3c9e6465
+P 524150d0958a4005111ef0010888abc193b1c9b0
+R 9b613ee109f07545415bceb03af4cd36
 U aldo
-Z 0aca30c78b7a5a9f7783090077beb345
+Z 077c937424d8137c69115ed892cf56e6
 # Remove this line to create a well-formed Fossil manifest.
