@@ -1,5 +1,5 @@
-C added\sto-html\sand\stree-trans\sto\ssxml
-D 2016-12-05T22:28:44.597
+C added\sposix.sls
+D 2016-12-08T00:35:19.382
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F cairo.sls 9303ad5ca191d9fffc80ac90bde433453ef9db9e
@@ -78,6 +78,7 @@ F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
 F nanomsg/survey ed99458b4cd07252f80d08f16c49131791209834 x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
 F netstring.sls 81c6b3a4e403c79e550c4d57247426c1c15691fd
+F posix.sls 0ad34ade5634519fdc1442698c096b1b10589499
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F sdl2.sls b1e2d41d9cd657ea905804d8e08aac85ef991152
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
@@ -314,8 +315,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls 49ab76ab6d328a040b2195ed068a33b01464b783
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 837939cf407b8617ff20fd3bfa25d8c4724a7226
-R 3e8b9f52985540f0a7ba55808c5b10c1
+P 2e060a1291731b48469de9e1f3e76ed395de0166
+R 7cb83e5d73ce576efefedaeb798488d3
 U aldo
-Z 1cbe6fefab224acc424d9600220ab514
+Z ede9f9655de11427b9340d85ee5b8a9f
 # Remove this line to create a well-formed Fossil manifest.
