@@ -1,5 +1,5 @@
-C moved\scast\sand\schar*->bytevector\sto\sffi-utils
-D 2016-12-08T00:41:28.807
+C added\sbinary-port->string
+D 2016-12-08T00:42:48.218
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 003262048d41e711ce7e8aef552e841f16b2afd7
@@ -227,7 +227,7 @@ F srfi/s39/parameters.mzscheme.sls c9e9905fc9bd5d084147b198e4c9ea4785d38e2f
 F srfi/s39/parameters.sls bae520fc7195bc40dcd7096dd91f41933500652b
 F srfi/s39/parameters.ypsilon.sls b1faf5e8451cd2471db3eeb9487980ee625ba01f
 F srfi/s41/streams.sls a9e0ae806011dceb81b63e3c2b0cba47c79729ee
-F srfi/s41/streams/derived.sls 72abf7e1c8c6c62bd8f0e895a312077a5204a080
+F srfi/s41/streams/derived.sls dcf15fed2012513d118e585c07b5bc657a2ac91a
 F srfi/s41/streams/primitive.sls 00e666cce42dfd355e4a898bdac5174cf16849a2
 F srfi/s41/test.sps 62cb2f949f9d132069c40e52d89882fb5071bddd
 F srfi/s42/_eager-comprehensions-a.sls ef493c9ce19351767b31ac66a3df1690e7f52419
@@ -316,8 +316,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls e0343d8a4c68a91d1276024a86d449296bc3d4b5
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 35fd13c928d2842c158971314c6034677db587c3
-R e26c3406e22430639cce30b8e10ea2a0
+P 6cf5622d3081cc731479c5f40d135d8821d89a7d
+R 6d9fb6d055f2a0e026afb7b901ed7905
 U aldo
-Z 365ce306bbb91cf7bbaa6bd3c0335df5
+Z 8df9f2198a42522f901a98a10f4270f7
 # Remove this line to create a well-formed Fossil manifest.
