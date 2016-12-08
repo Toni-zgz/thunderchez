@@ -1,7 +1,8 @@
-C added\sposix.sls
-D 2016-12-08T00:35:19.382
+C added\sc-eval
+D 2016-12-08T00:36:37.306
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
+F c-eval.sls 003262048d41e711ce7e8aef552e841f16b2afd7
 F cairo.sls 9303ad5ca191d9fffc80ac90bde433453ef9db9e
 F cairo/cairo-functions.ss e453a0dfb609ceee459fa2a14ca425f84a3944ee
 F cairo/cairo-pdf-functions.ss c55bee7a25407068a45a670fcbef4658d9eb1be2
@@ -315,8 +316,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls 49ab76ab6d328a040b2195ed068a33b01464b783
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 2e060a1291731b48469de9e1f3e76ed395de0166
-R 7cb83e5d73ce576efefedaeb798488d3
+P a6f295058668459347fc6be33f83b8e69f23800e
+R 408e1fd38b9e490f521667bcebc20a76
 U aldo
-Z ede9f9655de11427b9340d85ee5b8a9f
+Z 1371ec6e91976d85d8a83769755c3257
 # Remove this line to create a well-formed Fossil manifest.
