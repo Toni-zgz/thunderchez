@@ -1,5 +1,5 @@
-C added\sbinary-port->string
-D 2016-12-08T00:42:48.218
+C include\sfixes\sfor\sfmt
+D 2016-12-08T00:43:52.520
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 003262048d41e711ce7e8aef552e841f16b2afd7
@@ -30,7 +30,7 @@ F fmt/fmt.css 101fe214b0a671737d317940b93cff77e450d608
 F fmt/fmt.doc 2962d90460c03d75439c36e1731aa755628aeca3
 F fmt/fmt.html 2f267e904e57401737ab97b9b262dc9e1d9089c4
 F fmt/fmt.scm 8cb016101bf31d0f0047c1d8dfdcf7c206ad2254
-F fmt/fmt.sls fccf520f7e891e9cb95d17a2442a347405763576
+F fmt/fmt.sls 308dca4fccc549772fcd797803e8765fd9407223
 F fmt/hash-compat.scm 7d434b81d7420c4257945916ddc18a2b6f773add
 F fmt/js.sls 50ea8ba39026570ebced730f010d6a4eb82d0d5c
 F fmt/mantissa.scm 3f4af159dc18c2d62e5d2a54182c549d2903a60e
@@ -316,8 +316,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls e0343d8a4c68a91d1276024a86d449296bc3d4b5
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 6cf5622d3081cc731479c5f40d135d8821d89a7d
-R 6d9fb6d055f2a0e026afb7b901ed7905
+P 3373c30b1e4284db7ae09ccbe9825a05cdb5d233
+R 0cd9335c5519c50d87b19dd1015de418
 U aldo
-Z 8df9f2198a42522f901a98a10f4270f7
+Z 35e4dc27e5f36d5ba70ed4d8f64c18e6
 # Remove this line to create a well-formed Fossil manifest.
