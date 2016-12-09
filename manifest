@@ -1,5 +1,5 @@
-C added\sfile-read\sfile-write\sbytes-ready\sto\sposix
-D 2016-12-09T16:39:19.325
+C added\spure\sscheme\ssocket\slib
+D 2016-12-09T16:43:57.721
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 003262048d41e711ce7e8aef552e841f16b2afd7
@@ -156,6 +156,7 @@ F sdl2/version-functions.ss 592812022553ea58978579c11c86961102e1a670
 F sdl2/version-types.ss 9dc40bb3ddb06b59e07e5b459df388a1ef7b0610
 F sdl2/video-functions.ss dccd3ae52072079ef2ed41ae5b343e5f38fc1450
 F sdl2/video-types.ss 01f1937ca1188a59ccb3b01705ac298dc59ff388
+F socket.sls 5a766d4a6aeb954c54f7bd385e9e2159f1f61299
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
 F sqlite3.sls 1ecf7e0c9d29b8307bfa019ad194a1a8001e58a1
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
@@ -316,8 +317,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 28f201db0063b74096f7f15578a40956c8c05c7d
-R fbb2e5c636d6a22e13c61f4bf99043f7
+P 2e3180323df84368552becc0b921c47f1de8fcd6
+R c013514c637198c3eb9962a6ad1467b6
 U aldo
-Z 2eb1681e80fd7f743be945d03e384d3d
+Z b30025a354c793d63076812d2ef0b867
 # Remove this line to create a well-formed Fossil manifest.
