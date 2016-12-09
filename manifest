@@ -1,5 +1,5 @@
-C eqv?\sor\szero?\sinstead\sof\seq?\ssomewhere
-D 2016-12-08T01:27:14.331
+C added\sbytevector-copy*
+D 2016-12-09T16:38:51.494
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 003262048d41e711ce7e8aef552e841f16b2afd7
@@ -314,10 +314,10 @@ F sxml/sxpath.sls 42a0150f777e24590ca6997af56d520b1a6d8b54
 F sxml/to-html.sls 2bf2993488a7982e55ec83dd06102dcbea609ef3
 F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
-F thunder-utils.sls 88807030f312920d7883b03c3844b5e9ef683fa1
+F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 778dd320bbf4de7d863e4d2ce1ce5d6a2cbfa721
-R d5022847cbf3c1ce907baf9afddf26b9
+P 27a45ffaf87a492278efd7f295be0d6383ef12b8
+R c77a2cccaa74c3a6ca6eca5fe76a0445
 U aldo
-Z d4d1ae3d9a10ec60378edb131c4e4b7e
+Z 86bfd58da25259149f63d9764c0cf6bf
 # Remove this line to create a well-formed Fossil manifest.
