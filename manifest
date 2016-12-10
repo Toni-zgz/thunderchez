@@ -1,5 +1,5 @@
-C moved\sd.s.\simport\sto\stop\sof\sc-eval
-D 2016-12-09T20:24:22.898
+C added\sserver\ssupport\sto\ssocket.sls
+D 2016-12-10T18:57:51.389
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 6e92e17c2e3062cfec86589a95c549d21452f3b8
@@ -158,7 +158,7 @@ F sdl2/version-functions.ss 592812022553ea58978579c11c86961102e1a670
 F sdl2/version-types.ss 9dc40bb3ddb06b59e07e5b459df388a1ef7b0610
 F sdl2/video-functions.ss dccd3ae52072079ef2ed41ae5b343e5f38fc1450
 F sdl2/video-types.ss 01f1937ca1188a59ccb3b01705ac298dc59ff388
-F socket.sls 5a766d4a6aeb954c54f7bd385e9e2159f1f61299
+F socket.sls 62be89f0eed3530d40d950307fe50062b72c4e8c
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
 F sqlite3.sls 1ecf7e0c9d29b8307bfa019ad194a1a8001e58a1
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
@@ -319,8 +319,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P edbaf21f178e3291b2962b0bb4b7b4545e82c632
-R 98b09a2e1c2c7933db06f8d8167a4638
+P 23bcb0c8b5b61be81e801522fb8b97722d107f86
+R 65f1ce25758b05fddf7d1e047f703b01
 U aldo
-Z f364b25d7e012322bbaff9c92e0e4d92
+Z f250fbdd84ed839185c42c2466c05ff2
 # Remove this line to create a well-formed Fossil manifest.
