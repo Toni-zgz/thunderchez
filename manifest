@@ -1,5 +1,5 @@
-C added\sscgi\slib
-D 2016-12-11T14:28:46.089
+C minor\sscgi\sfixes
+D 2016-12-11T14:36:04.344
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
@@ -83,7 +83,7 @@ F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
 F netstring.sls 372f4c25f1536cf499ccda2f90f7c7b90e4fd7f4
 F posix.sls f0b75a97c2191f061f297b890cb6e4a2b0d5a9d7
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
-F scgi.sls ec408099dfd7b2c0095e7bb3df64bb29d19772bb
+F scgi.sls f24f5c38ad219a4a5e32281d16bdd5153d20b2f5
 F sdl2.sls b1e2d41d9cd657ea905804d8e08aac85ef991152
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
 F sdl2/assert-types.ss 0e134654a046b80888447f915d45aaec97b2b9fe
@@ -320,8 +320,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 03e5fe63183929da4e6554c45736d2db8f63a32a
-R 92a1db0e08abde54bd44910191097b94
+P c02c5fc05484414607465924afb95059daa35ac3
+R a55ba6c2684c2ffdf85618b67e509fd4
 U aldo
-Z b6407bee758285c5fba16166c2794bf6
+Z 7267e16e88ff395a278db6485fcd6e84
 # Remove this line to create a well-formed Fossil manifest.
