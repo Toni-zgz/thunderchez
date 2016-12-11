@@ -1,5 +1,5 @@
-C moved\ssockaddr_in\sinside\sthe\smeta-cond
-D 2016-12-10T19:00:00.866
+C new\sposix\sfuncs.\sdup\sfork,\simproved\swait-for-pid
+D 2016-12-11T13:55:00.230
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 6e92e17c2e3062cfec86589a95c549d21452f3b8
@@ -81,7 +81,7 @@ F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
 F nanomsg/survey ed99458b4cd07252f80d08f16c49131791209834 x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
 F netstring.sls 81c6b3a4e403c79e550c4d57247426c1c15691fd
-F posix.sls e60915da26b6aceca70ffbb68e1c51ebe2fba7b5
+F posix.sls f377e94dadec6e597dde8e3fe9ef456dfa05b17e
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F sdl2.sls b1e2d41d9cd657ea905804d8e08aac85ef991152
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
@@ -319,8 +319,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 82bf68606247efac4ff6030b63b33f78c075a42e
-R 1954f97ce9982d1c430b9b1fddc817d4
+P 0776ca44d802afe0852f50437edf82f9b846dc03
+R 0903155bad15253da686a6b7525dcb5a
 U aldo
-Z a74ba8b0a30fae4406198718617b5093
+Z c4f310aa1e14f8ae3e517d529e5fa922
 # Remove this line to create a well-formed Fossil manifest.
