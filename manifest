@@ -1,8 +1,8 @@
-C bind/inet\snow\ssets\sSO_REUSEADDR
-D 2016-12-11T13:55:32.705
+C added\smissing\slicense\sheaders
+D 2016-12-11T13:57:38.870
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
-F c-eval.sls 6e92e17c2e3062cfec86589a95c549d21452f3b8
+F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
 F cairo.sls d4dd4e6132ceb87b1526471c58a7ab0974ae8e7c
 F cairo/cairo-functions.ss e453a0dfb609ceee459fa2a14ca425f84a3944ee
 F cairo/cairo-pdf-functions.ss c55bee7a25407068a45a670fcbef4658d9eb1be2
@@ -80,8 +80,8 @@ F nanomsg/remote-repl 3d70a1afe058bfa85626652b1cfb68c2a8980f98 x
 F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
 F nanomsg/survey ed99458b4cd07252f80d08f16c49131791209834 x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
-F netstring.sls 81c6b3a4e403c79e550c4d57247426c1c15691fd
-F posix.sls f377e94dadec6e597dde8e3fe9ef456dfa05b17e
+F netstring.sls 372f4c25f1536cf499ccda2f90f7c7b90e4fd7f4
+F posix.sls f0b75a97c2191f061f297b890cb6e4a2b0d5a9d7
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F sdl2.sls b1e2d41d9cd657ea905804d8e08aac85ef991152
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
@@ -158,7 +158,7 @@ F sdl2/version-functions.ss 592812022553ea58978579c11c86961102e1a670
 F sdl2/version-types.ss 9dc40bb3ddb06b59e07e5b459df388a1ef7b0610
 F sdl2/video-functions.ss dccd3ae52072079ef2ed41ae5b343e5f38fc1450
 F sdl2/video-types.ss 01f1937ca1188a59ccb3b01705ac298dc59ff388
-F socket.sls f1da0cc74cf1fb4a06329e6cd553503330dc215a
+F socket.sls 1c4e76b1aac7edd44fb540bc7f01599a22f0c084
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
 F sqlite3.sls 1ecf7e0c9d29b8307bfa019ad194a1a8001e58a1
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
@@ -319,8 +319,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 00d95738806619529d3df573d401370683501226
-R 31ea84791dff327d16a25ab6e2347685
+P 15fd017f959a14a9a9a15f17a7c3996aed979f14
+R 4668e19ddb5cec80c3899c8deef12f75
 U aldo
-Z 1d32d10ba1570b77b4110cf3955dc6f7
+Z 0f12e14e24d0bb003de51cd699dce70b
 # Remove this line to create a well-formed Fossil manifest.
