@@ -1,5 +1,5 @@
-C fixed\ssockaddr_in.sin_zero\ssize,\sthanks\sto\sgwatt
-D 2016-12-12T22:48:14.636
+C clearer\sway\sto\sget\ssizeof\ssockaddr_in.sin_zero
+D 2016-12-12T23:11:39.891
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
@@ -162,7 +162,7 @@ F sdl2/version-functions.ss 592812022553ea58978579c11c86961102e1a670
 F sdl2/version-types.ss 9dc40bb3ddb06b59e07e5b459df388a1ef7b0610
 F sdl2/video-functions.ss dccd3ae52072079ef2ed41ae5b343e5f38fc1450
 F sdl2/video-types.ss 01f1937ca1188a59ccb3b01705ac298dc59ff388
-F socket.sls 4e0589760da890c5b545485b10412e3c690a6bcd
+F socket.sls 52677b1ed1f8e56268f8ea212e6e00a043df6b9e
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
 F sqlite3.sls 1ecf7e0c9d29b8307bfa019ad194a1a8001e58a1
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
@@ -323,8 +323,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P e0957430e18204ca5ce8c2c811f87a832294933a
-R 4cfb3774238f8b9713913c69f021c676
+P f1282eed3e71eb08974e779dbd8e008a6661e11a
+R e16865b77de325022a27730b1c4e560c
 U aldo
-Z 7cb0a92e9d3414461177a08b256a0004
+Z fecaadf674a5dd5000e072eadc8b27ef
 # Remove this line to create a well-formed Fossil manifest.
