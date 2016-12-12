@@ -1,5 +1,5 @@
-C use\stextual\sport\sfor\sscgi\sresponse
-D 2016-12-11T16:11:59.271
+C fixed\sbug\sin\sscgi\sserver\sloop,\sthe\schild\sprocess\swould\snot\sexit\sif\san\sexception\swas\sraised
+D 2016-12-12T14:03:32.778
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
@@ -83,7 +83,7 @@ F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
 F netstring.sls 372f4c25f1536cf499ccda2f90f7c7b90e4fd7f4
 F posix.sls f0b75a97c2191f061f297b890cb6e4a2b0d5a9d7
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
-F scgi.sls d1e5248a01de1bf29004ec376f892d899d8e2149
+F scgi.sls d89f7aeb7169b3470328529ca204e5d237f8ac4c
 F sdl2.sls b1e2d41d9cd657ea905804d8e08aac85ef991152
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
 F sdl2/assert-types.ss 0e134654a046b80888447f915d45aaec97b2b9fe
@@ -320,8 +320,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 4c5a36a86418a867031489801499f8c5666c930b
-R 0e5964ab7a906376b98ab6940317cc93
+P 9c4ec6ad9dc958f381fabbdb4439219713ec652c
+R a63f5d52a5f9a08b6fc3e6b29647421d
 U aldo
-Z aa89d8b6b5a014d4395956204bf98eed
+Z c18d1a96dbf265e4afab0315633bce4e
 # Remove this line to create a well-formed Fossil manifest.
