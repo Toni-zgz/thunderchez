@@ -1,5 +1,5 @@
-C added\sEINTR\ssupport\son\sconnect/inet\sand\saccept
-D 2016-12-12T15:32:59.004
+C added\sbetter\serrno\ssupport
+D 2016-12-12T16:01:40.551
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
@@ -81,7 +81,10 @@ F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
 F nanomsg/survey ed99458b4cd07252f80d08f16c49131791209834 x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
 F netstring.sls 372f4c25f1536cf499ccda2f90f7c7b90e4fd7f4
-F posix.sls f0b75a97c2191f061f297b890cb6e4a2b0d5a9d7
+F posix.sls 84d59a345748afcb46b6bf7a7ede7a864cf9f394
+F posix/errno-c-eval.ss eb85172af1b5ab1fa38f80ee58c49d3897b53e16
+F posix/errno-linux.ss d9c4281d5d0e949bc061e27c71b168c28e0dc25f
+F posix/errno.sls a3c57da0e98e689bf5405647186aec2640cab64f
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F scgi.sls a8aee0fa1105498bcf7a32e4b36902caae039bb2
 F sdl2.sls b1e2d41d9cd657ea905804d8e08aac85ef991152
@@ -159,7 +162,7 @@ F sdl2/version-functions.ss 592812022553ea58978579c11c86961102e1a670
 F sdl2/version-types.ss 9dc40bb3ddb06b59e07e5b459df388a1ef7b0610
 F sdl2/video-functions.ss dccd3ae52072079ef2ed41ae5b343e5f38fc1450
 F sdl2/video-types.ss 01f1937ca1188a59ccb3b01705ac298dc59ff388
-F socket.sls 4c3d491c8c5c3e646689c7c9ac9f097c3dc852e5
+F socket.sls 8839d09b3ab2c3c2872c0e3d1d5ef4e2efb84742
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
 F sqlite3.sls 1ecf7e0c9d29b8307bfa019ad194a1a8001e58a1
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
@@ -320,8 +323,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 8c6adf71a22375e1eb69168b20cba7a383676511
-R 030de9230335eb4534bab6ce8da7a140
+P c7ecd28930666b0b5c04d2b55873804ca46a31aa
+R c0477628049b11734bb29cb7f49a07f4
 U aldo
-Z a56146c17dce264e0dffa6e0016bd448
+Z 8f154547513de4dbb307795ee58a7293
 # Remove this line to create a well-formed Fossil manifest.
