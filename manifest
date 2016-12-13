@@ -1,5 +1,5 @@
-C added\ssxml-match\sdoc
-D 2016-12-13T00:11:12.807
+C use\stranscoded-port\sin\shandle-scgi-connection
+D 2016-12-13T15:41:49.836
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
@@ -86,7 +86,7 @@ F posix/errno-c-eval.ss eb85172af1b5ab1fa38f80ee58c49d3897b53e16
 F posix/errno-linux.ss d9c4281d5d0e949bc061e27c71b168c28e0dc25f
 F posix/errno.sls a3c57da0e98e689bf5405647186aec2640cab64f
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
-F scgi.sls a8aee0fa1105498bcf7a32e4b36902caae039bb2
+F scgi.sls 1e66577155b7fa0fdb10c2a3a38bf6266aefded4
 F sdl2.sls b1e2d41d9cd657ea905804d8e08aac85ef991152
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
 F sdl2/assert-types.ss 0e134654a046b80888447f915d45aaec97b2b9fe
@@ -327,8 +327,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 4d83ff5dcb5613b215fcca5ad618a981225211e4
-R 83707fde93405b9712cace54e179b138
+P 31ed97375e8ad54c83340993398d3ba2c4a5873b
+R 2a3454bceb7167726e9f6a7f43e2e7af
 U aldo
-Z 48d138bcc5bde619ff4825097dfaecf9
+Z 9b3b7306105963fa406cdf471b5e22e2
 # Remove this line to create a well-formed Fossil manifest.
