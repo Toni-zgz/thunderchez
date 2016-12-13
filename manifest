@@ -1,5 +1,5 @@
-C added\sfree-gettext
-D 2016-12-13T23:24:26.160
+C free-gettext\sported\sto\schez\sscheme
+D 2016-12-13T23:28:22.240
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
@@ -48,7 +48,7 @@ F foof/irregex-utils.sls c6c9da30997462e76427ac3b38b2a7e5c4d92bd6
 F foof/irregex.sls ff76b7d0fb065dd18da5ee28d8d666e0412b17fe
 F foof/match.scm 49d6d8243534ff0f26dd7ed384c77f55e9f02ae2
 F foof/match.sls 72b9797847ad5e6bceee24f3bb50104216a53ffe
-F free-gettext.scm 57747b01aa186bdf79895bad963410e774abd218
+F free-gettext.sls e5d1b6b358713ad0106ece13cb9ea6734ee72fb3 w free-gettext.scm
 F gl.sls 66eb368619130351723f56da9a35fca5d99eed4a
 F glu.sls 8200e1174cb38c63c68d171685e8f0327d611f5b
 F glut.sls 3de56e892d0253fa096bdcec038f3af6e7969fda
@@ -328,8 +328,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P f5e9b53cb5de8fca0413577fe5ef4be9226a71ad
-R 05a68829e5ba3cbe81a179abc1b77865
+P 69b77102c556281ccc1bfa350ac1a225cc5b04e3
+R 53fb8fffedc08000a7274becf47d6567
 U aldo
-Z 9e7d8712104b3a25046e9544fea09371
+Z 0352c66989f7fa8b2283b2c246027bf3
 # Remove this line to create a well-formed Fossil manifest.
