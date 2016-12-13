@@ -1,5 +1,5 @@
-C added\ssxml\smatch
-D 2016-12-13T00:03:36.946
+C added\ssxml-match\sdoc
+D 2016-12-13T00:11:12.807
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
@@ -319,6 +319,7 @@ F sxml/ssax-impl.ss 819fd193a4b1d7648deb0e4ab14381d5c454e9ba
 F sxml/ssax.sls df42dc931bdc8260eccf88a7e256ce17593f87d1
 F sxml/sxml-match-tests.ss fb779804d42b25c2d39fae7854878bb178ef591e
 F sxml/sxml-match.ss 248bc7f3f86236940d92345dd2d46b0f915d333a
+F sxml/sxml-match.txt 543034b283979359c5acb66910eedc406309b385
 F sxml/sxpath-impl.ss 99ad89357558a192cf476500d3892e0b9e556a1b
 F sxml/sxpath.sls 42a0150f777e24590ca6997af56d520b1a6d8b54
 F sxml/to-html.sls 2bf2993488a7982e55ec83dd06102dcbea609ef3
@@ -326,8 +327,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P b43586041b061b69c9e4d20bd07cede13e890c2d
-R 08c1c9dfd763acdcf9417e1a47aea6bd
+P 4d83ff5dcb5613b215fcca5ad618a981225211e4
+R 83707fde93405b9712cace54e179b138
 U aldo
-Z 28e33aca0e2986cbcdb83b7f650b80a0
+Z 48d138bcc5bde619ff4825097dfaecf9
 # Remove this line to create a well-formed Fossil manifest.
