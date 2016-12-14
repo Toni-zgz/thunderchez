@@ -1,5 +1,5 @@
-C upgraded\sSDL2.0\sAPI\sto\s2.0.5,\sadded\sREADME\sfor\sSDL2\sffi
-D 2016-12-14T16:32:00.693
+C updated\ssdl2\sREADME
+D 2016-12-14T17:03:33.407
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
@@ -89,7 +89,7 @@ F posix/errno.sls a3c57da0e98e689bf5405647186aec2640cab64f
 F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F scgi.sls 1e66577155b7fa0fdb10c2a3a38bf6266aefded4
 F sdl2.sls 0d60af6b908603c017531496e1bff95ec3a7af63
-F sdl2/README 1e20f6df78770f5d07d0e78626d481efc02aae6f
+F sdl2/README b089b455c1c27cc43c42df83ea6b76ca0b8fc8c2
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
 F sdl2/assert-types.ss 0e134654a046b80888447f915d45aaec97b2b9fe
 F sdl2/atomic-functions.ss 88af5b2c9dd5569a105154d826715504f04020e8
@@ -329,8 +329,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 6aa9c190e9c49965542e887848c57b32197e232b
-R 20c91c23ab5ff3b0828df174f6058e18
+P e0fdb312bbeb5da7f32d212d7fe07ba43184b84a
+R 0d630bf552054fe3a89035edea5101ab
 U aldo
-Z 9e515fc014a18ef49a1d00a5c7723573
+Z 478612c03e72474f54b07ecd252b1f3d
 # Remove this line to create a well-formed Fossil manifest.
