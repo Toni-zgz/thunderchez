@@ -1,20 +1,20 @@
-C updated\ssdl2\sREADME
-D 2016-12-14T17:03:33.407
+C cairo\sffi\simprovements
+D 2016-12-15T01:14:13.342
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
-F cairo.sls d4dd4e6132ceb87b1526471c58a7ab0974ae8e7c
-F cairo/cairo-functions.ss e453a0dfb609ceee459fa2a14ca425f84a3944ee
-F cairo/cairo-pdf-functions.ss c55bee7a25407068a45a670fcbef4658d9eb1be2
+F cairo.sls d69560c5c0d0f11c7070339aa05f41498663d4d2
+F cairo/cairo-functions.ss 69d24d252c64f26b231a74c07f98cadb0d049ea3
+F cairo/cairo-pdf-functions.ss 42c4d04d54aa32057bbd802090baa03a5e9bd209
 F cairo/cairo-pdf.json c1cb1cdf654b3e7295c197694a4b1600e7cdf103
 F cairo/cairo-pdf.sexp 96272c21f42a5ed483a85db3b7d8c560c69f1d7a
 F cairo/cairo.json 5b7e921453eb868267205896a04b82b6850822c1
 F cairo/cairo.sexp 67e00b093990ab421ec53667979cb2029a5824e6
-F cairo/ffi-utils.ss 1a6789a09a17fa3bb268e02da6e27a7bb27f4e1f
-F cairo/parse-json.ss a7c60606e9bd33dfff7dd57715b2ad225bbb6272
+F cairo/ffi-utils.ss 8c27ef8585a5bbc27bcb0aaf2aff320ac4508d35
+F cairo/parse-json.ss 55242f150ce1ff833051d9904e9c225517269da4
 F cairo/romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F cairo/test.ss cd94c919f0bca07afdef22f2544eae81557690db
-F cairo/types.ss 83f2c774f9c60a13d94858706ef11f83a3dc41f4
+F cairo/types.ss f9a25bff375e25a83e9381a1a7a29bd4fadac9fa
 F data-structures.scm 12ac5a7885fe4171901718edfc62354527d4a41a
 F data-structures.sls 3639d2015bc3ab6b9b6a00da99641be02d347b7b
 F ffi-utils.sls b6b8c09c0b7ff2eba391a4efa8d0cb357cb58514
@@ -329,8 +329,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls ccc4915ed6dd2c26974f9150f30865c5dd4e4926
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P e0fdb312bbeb5da7f32d212d7fe07ba43184b84a
-R 0d630bf552054fe3a89035edea5101ab
+P c8794bb797ec9703d5d411b2360c030a6c7b72ed
+R df6fa8ee3f2e8568012e62f334879a6a
 U aldo
-Z 478612c03e72474f54b07ecd252b1f3d
+Z 3f1cf1911c74039c152b5aa6bbb013de
 # Remove this line to create a well-formed Fossil manifest.
