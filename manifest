@@ -1,5 +1,5 @@
-C small\sfix\sto\sprint-stack-trace
-D 2017-01-11T17:53:55.242
+C deleted\sromedalen.png
+D 2017-01-11T18:30:02.856
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
@@ -86,7 +86,6 @@ F posix.sls 84d59a345748afcb46b6bf7a7ede7a864cf9f394
 F posix/errno-c-eval.ss eb85172af1b5ab1fa38f80ee58c49d3897b53e16
 F posix/errno-linux.ss d9c4281d5d0e949bc061e27c71b168c28e0dc25f
 F posix/errno.sls a3c57da0e98e689bf5405647186aec2640cab64f
-F romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F scgi.sls 1e66577155b7fa0fdb10c2a3a38bf6266aefded4
 F sdl2.sls 0d60af6b908603c017531496e1bff95ec3a7af63
 F sdl2/README b089b455c1c27cc43c42df83ea6b76ca0b8fc8c2
@@ -334,8 +333,8 @@ F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
 F thunder-utils.sls 6773cc9999464f8a010814136e23e741cb7afcea
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 927509fadb27d92885ecc6d30505e4757aa6f7f5
-R 9f4b54791b99c2e7eca77d9ae2663a02
+P 07ac33f7e0c0bb638999bd2bad272d8c89167d71
+R 8d2ab3ccacae01e9ceabbe57eb8c8311
 U aldo
-Z 6c3fa14f39f4edfd9b3f7e17e7f702be
+Z ee502ee11038696a04001282ef4485d2
 # Remove this line to create a well-formed Fossil manifest.
