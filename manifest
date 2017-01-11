@@ -1,5 +1,5 @@
-C added\sprint-stack-trace
-D 2017-01-11T17:46:07.996
+C small\sfix\sto\sprint-stack-trace
+D 2017-01-11T17:49:26.732
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
@@ -332,10 +332,10 @@ F sxml/sxpath.sls 42a0150f777e24590ca6997af56d520b1a6d8b54
 F sxml/to-html.sls 2bf2993488a7982e55ec83dd06102dcbea609ef3
 F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
-F thunder-utils.sls 6773cc9999464f8a010814136e23e741cb7afcea
+F thunder-utils.sls 5ba610f840bbc902042eb05ca9689d39ddd1b34d
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 07be5132aa10d6ee10021ccfeba2fc246dfc82ea
-R 9f4b54791b99c2e7eca77d9ae2663a02
+P 0e61d1648b52ed5bb6c9f7143393075aba430a34
+R 3f7341041d6ea40045b54de050e8d918
 U aldo
-Z de675121536bef876703697fb52e7985
+Z cf8e0c9c67fda3cac0b00072733c7326
 # Remove this line to create a well-formed Fossil manifest.
