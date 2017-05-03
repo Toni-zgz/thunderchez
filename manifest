@@ -1,8 +1,8 @@
-C added\ssub-bytevector\sand\ssub-bytevector=?,\sfix\sin\sbytevector-copy*
-D 2017-05-03T17:58:49.188
+C many\sfixes\sto\susb.sls
+D 2017-05-03T18:01:41.094
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
-F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
+F c-eval.sls e2e3d8d3eb7fffa53ee8b1173927eb4688c22951
 F cairo.sls d69560c5c0d0f11c7070339aa05f41498663d4d2
 F cairo/cairo-functions.ss 69d24d252c64f26b231a74c07f98cadb0d049ea3
 F cairo/cairo-pdf-functions.ss 42c4d04d54aa32057bbd802090baa03a5e9bd209
@@ -20,21 +20,21 @@ F data-structures.sls 3639d2015bc3ab6b9b6a00da99641be02d347b7b
 F ffi-utils.sls b6b8c09c0b7ff2eba391a4efa8d0cb357cb58514
 F fmt/README 2ccb8d946e7956756f23d6701766d8c1d837b75e
 F fmt/VERSION a8e17ff70aad8ee219c66b74edb87da84a03e11a
-F fmt/c.sls cfc0b7299f0e4deee91ce5b73d2ac70b1fe7bf98
+F fmt/c.sls a3d716dbc4f3760ac849bc63817bae3c80b0cd36
 F fmt/fmt-c.scm c5cd13b3d23ffa994572cdc4c5a5b8bd0f1cb6a8
 F fmt/fmt-color.scm ed4dbc52ea956374725d97527628158bcf360ff1
 F fmt/fmt-column.scm 1ae10ecaa1766cc39c1a4753f014a4236cdac3b5
 F fmt/fmt-gauche.scm 6d238db8e0d95d63f970f06cbfedf760221a9ba3
 F fmt/fmt-js.scm f1f072612971a3b6e4240be9251862e4d604a94f
 F fmt/fmt-pretty.scm e1835ecd75e48717ad6c9b147973f8eb52c4528c
-F fmt/fmt-unicode.scm 1bea3fe2d393757bbda871028c09a40ec944f6f1
+F fmt/fmt-unicode.scm 067660ef103bd100c1622e83ba8bbbbd4ac31309
 F fmt/fmt.css 101fe214b0a671737d317940b93cff77e450d608
 F fmt/fmt.doc 2962d90460c03d75439c36e1731aa755628aeca3
 F fmt/fmt.html 2f267e904e57401737ab97b9b262dc9e1d9089c4
 F fmt/fmt.scm 8cb016101bf31d0f0047c1d8dfdcf7c206ad2254
 F fmt/fmt.sls 308dca4fccc549772fcd797803e8765fd9407223
 F fmt/hash-compat.scm 7d434b81d7420c4257945916ddc18a2b6f773add
-F fmt/js.sls 50ea8ba39026570ebced730f010d6a4eb82d0d5c
+F fmt/js.sls 87cb31ee209ada74e7c07c2b7a85f98f9ec57854
 F fmt/mantissa.scm 3f4af159dc18c2d62e5d2a54182c549d2903a60e
 F fmt/read-line.scm 01c4e9d7b7656ff05f782ed2ac3bfa923c4ffd34
 F fmt/string-ports.scm b7e102ec9f513b591c12529df49d8c9ca5453c56
@@ -77,7 +77,7 @@ F nanomsg/local-repl 682b6eea78199d77ce33102cce319ff31a0383e3 x
 F nanomsg/pair c7bfab5957144a27020b66b1acf5da2a7c8ddea5 x
 F nanomsg/pipeline 5b8c34330aff2730c45ee80916d9ff787de4689e x
 F nanomsg/pubsub d3bcbb3ac013a8f8898e2ec7b0cb9c8bc188fad7 x
-F nanomsg/remote-repl 3d70a1afe058bfa85626652b1cfb68c2a8980f98 x
+F nanomsg/remote-repl c0c7d25b62046b229f22de0c46c253b5565a9761 x
 F nanomsg/reqrep fbc391bacdae70a2e5df2dfb52a464282af17cf2 x
 F nanomsg/survey ed99458b4cd07252f80d08f16c49131791209834 x
 F nanomsg/symbols.ss 90788d7f3555fd0a1dbe67c2ac7b19cff8f11629
@@ -163,7 +163,7 @@ F sdl2/version-functions.ss 592812022553ea58978579c11c86961102e1a670
 F sdl2/version-types.ss 9dc40bb3ddb06b59e07e5b459df388a1ef7b0610
 F sdl2/video-functions.ss 61ca383b71f5976f8e66a60403fbd765774ba715
 F sdl2/video-types.ss 9c1fc33e44873fde4f514ba3d781f70e1945c3a4
-F socket.sls 52677b1ed1f8e56268f8ea212e6e00a043df6b9e
+F socket.sls be09dda683b979fd812c29b293fb372ae539d507
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
 F sqlite3.sls 23ed97690a84cb862d3d6ed69332d9abc4906969
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
@@ -211,7 +211,7 @@ F srfi/s19/time/compat.larceny.sls 5484c50c15357bcfd0bb487446821ae91da5d836
 F srfi/s19/time/compat.mosh.sls 38572fd24ba37b64e3706b99f64d24fb4ecdc599
 F srfi/s19/time/compat.mzscheme.sls b2551cf8dcd2104159b853ba7bccf1cb5a46e547
 F srfi/s19/time/compat.ypsilon.sls 606063991324333ddc038dcb7603a23604b90c89
-F srfi/s2/and-let.sls 4185d219686a43b550ab6900e34fb92fc5f56314
+F srfi/s2/and-let.sls fa14aa53689e6b93e886b58a3ac32626045323ac
 F srfi/s23/error.sls 072673562a48b27544a02bd6100df2ae1b8c0002
 F srfi/s23/error/tricks.sls 134f2d16d7df1c6b752f9525b143a6bdc9f7b61d
 F srfi/s25/arlib.scm 60a7c9082d74fd1640b46dc2e4269374fe9239c9
@@ -318,6 +318,7 @@ F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F sxml.sls 5697c1e5311b5a6babc994dc1ae7bc5d2cae5ba9
 F sxml/README.md 64570767511fab6d06c356b72a3c0194542fe505
+F sxml/SXML-to-HTML-ext.scm 0916a7a50ddc037c3982fd2f78f0cf878a268e58
 F sxml/SXML-to-HTML.scm a00b9bc5b963cd27d91bbeeed303c60a3d20312f
 F sxml/SXML-tree-trans.scm 5feeeb3a6e444bf8ef7ae0e342e5bf2e6ce4865e
 F sxml/match.sls 3f5d8e5e3a556af734623242758dd5f702989a6b
@@ -328,13 +329,14 @@ F sxml/sxml-match.ss dec381f80e4d5caf3fe2d62091331a7bbfb2aa0f
 F sxml/sxml-match.txt 543034b283979359c5acb66910eedc406309b385
 F sxml/sxpath-impl.ss 99ad89357558a192cf476500d3892e0b9e556a1b
 F sxml/sxpath.sls 42a0150f777e24590ca6997af56d520b1a6d8b54
-F sxml/to-html.sls 2bf2993488a7982e55ec83dd06102dcbea609ef3
-F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
-F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
+F sxml/sxslt-advanced.scm 576ba8f8ae2ef8db4830f9308080a5e4ea5ae9cf
+F sxml/to-html.sls efe178ce85fa652c8c5220f94175b540f5ff0312
+F sxml/tree-trans.sls 373a2f52685ecbbda9748c8c24fbf60053ddcc30
+F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls 9e666c905a686dc7657690d16f1a8cafae2ed8cf
-F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P 8b9bf33c93a4d500a50b80cda41ee1547aac4e62
-R d0649fb5a83e2f6a79a9d76271d27aa8
+F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
+P 8dc2d825f498cc1d7467b0cd6a9d5b07bd3735d2
+R 4bc8e6dbbf4a9e667ec26d0e9f479675
 U aldo
-Z dec095036a81b3b674dde5ddbeed242d
+Z 792add1cc315cc0fe5dcbdd9229f8665
 # Remove this line to create a well-formed Fossil manifest.
