@@ -1,5 +1,5 @@
-C fixed\sbug\sin\sopen-database\sfor\ssqlite3
-D 2017-01-19T16:26:49.282
+C added\ssub-bytevector\sand\ssub-bytevector=?,\sfix\sin\sbytevector-copy*
+D 2017-05-03T17:58:49.188
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls 482cdfa1ec54bed0e701d5ca6e25b9eb7b7999c4
@@ -331,10 +331,10 @@ F sxml/sxpath.sls 42a0150f777e24590ca6997af56d520b1a6d8b54
 F sxml/to-html.sls 2bf2993488a7982e55ec83dd06102dcbea609ef3
 F sxml/tree-trans.sls e423c25b37a2b793d3ac909df2229ccdc0563a71
 F sxml/utils.ss 065ed1f88ae3e41d91ef229342e5d02b570d9e57
-F thunder-utils.sls 6773cc9999464f8a010814136e23e741cb7afcea
+F thunder-utils.sls 9e666c905a686dc7657690d16f1a8cafae2ed8cf
 F usb.sls 31d14f00b607985f20ed201bcc5285847a97292c
-P fb2103dcde57bd0e02d8330a3c1c66ed302d6185
-R c15643927dc02970cf82faecd5dd03a7
+P 8b9bf33c93a4d500a50b80cda41ee1547aac4e62
+R d0649fb5a83e2f6a79a9d76271d27aa8
 U aldo
-Z f1c5af2d991db3202f2c5969cc1c0085
+Z dec095036a81b3b674dde5ddbeed242d
 # Remove this line to create a well-formed Fossil manifest.
