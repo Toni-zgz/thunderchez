@@ -1,5 +1,5 @@
-C added\s(load/save)-bytevector\sto\sthunder-utils
-D 2017-08-01T11:22:09.118
+C use\sint64\sinstead\sof\sint\sfor\ssqlite3\sbind,\sminor\sfix\sin\ssqlite3_finalize
+D 2017-08-01T11:23:12.844
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls e2e3d8d3eb7fffa53ee8b1173927eb4688c22951
@@ -165,7 +165,7 @@ F sdl2/video-functions.ss 61ca383b71f5976f8e66a60403fbd765774ba715
 F sdl2/video-types.ss 9c1fc33e44873fde4f514ba3d781f70e1945c3a4
 F socket.sls be09dda683b979fd812c29b293fb372ae539d507
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
-F sqlite3.sls 23ed97690a84cb862d3d6ed69332d9abc4906969
+F sqlite3.sls b0f317295e7795a63303049c9a39d4686ca3428e
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
 F srfi/README 262f75f2ee44c2fd427d304244c669b29755e930
 F srfi/private/OS-id-features.sls d18764a9fcdda3704b7c2a4710f05f8210a3ae2f
@@ -335,8 +335,8 @@ F sxml/tree-trans.sls 373a2f52685ecbbda9748c8c24fbf60053ddcc30
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls a581714cea0b364e3edd4ab7729896b71bcaf1c4
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P cd7a31d87b6bb33450b969b078d463aeac6ab243
-R 17505e1236d5cd2fb07610e395bca3c5
+P d396379ac9fdf7d9d0de128bd51a08a0b0a5509d
+R e01b8cb506b25875ab9c986187eeb094
 U aldo
-Z 3ef74e956dfbf5a0905571fed7f04db0
+Z 3993e128f239bedc78b9bd299816b227
 # Remove this line to create a well-formed Fossil manifest.
