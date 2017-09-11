@@ -1,7 +1,8 @@
-C save\sbignums\sas\sstrings\sin\ssqlite3
-D 2017-09-11T21:17:41.852
+C added\sbase64\slibrary
+D 2017-09-11T21:18:41.212
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
+F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
 F c-eval.sls e2e3d8d3eb7fffa53ee8b1173927eb4688c22951
 F cairo.sls d69560c5c0d0f11c7070339aa05f41498663d4d2
 F cairo/cairo-functions.ss 69d24d252c64f26b231a74c07f98cadb0d049ea3
@@ -335,8 +336,8 @@ F sxml/tree-trans.sls 373a2f52685ecbbda9748c8c24fbf60053ddcc30
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls a581714cea0b364e3edd4ab7729896b71bcaf1c4
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 15097c33297cafcba2830d6c0d271f07114f932f
-R 521bba7055f569ec096f313a9fda10c5
+P 1d7eb01ce5ad95f2dddcdf70750d2a85d268c997
+R 2e950ae0e992f5f27d885bb06c8d7ea3
 U aldo
-Z fe9f1eee4bad527ccb378e8db21ea77f
+Z c2d6d0cb5214f934f67c06ac1403141e
 # Remove this line to create a well-formed Fossil manifest.
