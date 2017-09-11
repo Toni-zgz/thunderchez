@@ -1,5 +1,5 @@
-C fixed\sescaped\sdouble\squote\sbug\sin\sjson\sparser
-D 2017-09-11T21:16:14.453
+C save\sbignums\sas\sstrings\sin\ssqlite3
+D 2017-09-11T21:17:41.852
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls e2e3d8d3eb7fffa53ee8b1173927eb4688c22951
@@ -165,7 +165,7 @@ F sdl2/video-functions.ss 61ca383b71f5976f8e66a60403fbd765774ba715
 F sdl2/video-types.ss 9c1fc33e44873fde4f514ba3d781f70e1945c3a4
 F socket.sls be09dda683b979fd812c29b293fb372ae539d507
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
-F sqlite3.sls b0f317295e7795a63303049c9a39d4686ca3428e
+F sqlite3.sls e49440ba40dda48f3e9af8befa17600d04f8731e
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
 F srfi/README 262f75f2ee44c2fd427d304244c669b29755e930
 F srfi/private/OS-id-features.sls d18764a9fcdda3704b7c2a4710f05f8210a3ae2f
@@ -335,8 +335,8 @@ F sxml/tree-trans.sls 373a2f52685ecbbda9748c8c24fbf60053ddcc30
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls a581714cea0b364e3edd4ab7729896b71bcaf1c4
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 86bf6c2faf5798c2fc022e13d20925ba8bfc43f6
-R bfef11e5eed2d75744de8e5ff1304491
+P 15097c33297cafcba2830d6c0d271f07114f932f
+R 521bba7055f569ec096f313a9fda10c5
 U aldo
-Z 7096d3022011e64d577f21216c42741c
+Z fe9f1eee4bad527ccb378e8db21ea77f
 # Remove this line to create a well-formed Fossil manifest.
