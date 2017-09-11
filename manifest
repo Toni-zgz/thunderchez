@@ -1,5 +1,5 @@
-C added\sbase64\slibrary
-D 2017-09-11T21:18:41.212
+C added\scurl\slibrary
+D 2017-09-11T21:19:31.341
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -16,6 +16,7 @@ F cairo/parse-json.ss 55242f150ce1ff833051d9904e9c225517269da4
 F cairo/romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F cairo/test.ss cd94c919f0bca07afdef22f2544eae81557690db
 F cairo/types.ss f9a25bff375e25a83e9381a1a7a29bd4fadac9fa
+F curl.sls 65154fb9d0c029fd8cef890ba5bf3cb4230c990b
 F data-structures.scm 12ac5a7885fe4171901718edfc62354527d4a41a
 F data-structures.sls 3639d2015bc3ab6b9b6a00da99641be02d347b7b
 F ffi-utils.sls b6b8c09c0b7ff2eba391a4efa8d0cb357cb58514
@@ -336,8 +337,8 @@ F sxml/tree-trans.sls 373a2f52685ecbbda9748c8c24fbf60053ddcc30
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls a581714cea0b364e3edd4ab7729896b71bcaf1c4
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 1d7eb01ce5ad95f2dddcdf70750d2a85d268c997
-R 2e950ae0e992f5f27d885bb06c8d7ea3
+P ac71b34f1fd4bf3aee7a1af6e74a6bac2d1d5154
+R 30b660c71a8360061cea2a35d0aeed78
 U aldo
-Z c2d6d0cb5214f934f67c06ac1403141e
+Z 6e4e07fe415f407fcf9e10b3b5e823d8
 # Remove this line to create a well-formed Fossil manifest.
