@@ -1,5 +1,5 @@
-C added\scurl\slibrary
-D 2017-09-11T21:19:31.341
+C fixed\ssome\sinclude/resolve
+D 2017-09-11T21:20:04.981
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -332,13 +332,13 @@ F sxml/sxml-match.txt 543034b283979359c5acb66910eedc406309b385
 F sxml/sxpath-impl.ss 99ad89357558a192cf476500d3892e0b9e556a1b
 F sxml/sxpath.sls 42a0150f777e24590ca6997af56d520b1a6d8b54
 F sxml/sxslt-advanced.scm 576ba8f8ae2ef8db4830f9308080a5e4ea5ae9cf
-F sxml/to-html.sls efe178ce85fa652c8c5220f94175b540f5ff0312
-F sxml/tree-trans.sls 373a2f52685ecbbda9748c8c24fbf60053ddcc30
+F sxml/to-html.sls 1e600b5bcbe98224287bcf07fc204cae3742dafb
+F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls a581714cea0b364e3edd4ab7729896b71bcaf1c4
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P ac71b34f1fd4bf3aee7a1af6e74a6bac2d1d5154
-R 30b660c71a8360061cea2a35d0aeed78
+P 0c4baf9591a02ec8f94f377a5551e5c4caf29810
+R 8f87cb2389887779fba403b81b7c6632
 U aldo
-Z 6e4e07fe415f407fcf9e10b3b5e823d8
+Z eb6fcf2fd484be10113e5e3448ee5851
 # Remove this line to create a well-formed Fossil manifest.
