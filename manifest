@@ -1,5 +1,5 @@
-C use\sint64\sinstead\sof\sint\sfor\ssqlite3\sbind,\sminor\sfix\sin\ssqlite3_finalize
-D 2017-08-01T11:23:12.844
+C fixed\sescaped\sdouble\squote\sbug\sin\sjson\sparser
+D 2017-09-11T21:16:14.453
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F c-eval.sls e2e3d8d3eb7fffa53ee8b1173927eb4688c22951
@@ -54,7 +54,7 @@ F glu.sls 8200e1174cb38c63c68d171685e8f0327d611f5b
 F glut.sls 3de56e892d0253fa096bdcec038f3af6e7969fda
 F irregex-utils.sls 198ea9bf44843c480dfc8bae452762385b222176
 F irregex.sls 91b31943a4abea27dc54b68a39ccd8317b84ee96
-F json.sls 86963b02e1568bbdd6eace12ead0ad55084b0840
+F json.sls 9decf400e3542ec96e8e0e4d8f3b8170c3c7c878
 F lalr/README 84dd973836e11f277f5a88ddc8933cc2a43a2f8e
 F lalr/associators.ss f4bcc1a3770c3c417d38613fa967cc683c078dad
 F lalr/lalr-test.ss 89949d7adc1ddd11fd20a132d91e3a2fd003f48c
@@ -335,8 +335,8 @@ F sxml/tree-trans.sls 373a2f52685ecbbda9748c8c24fbf60053ddcc30
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls a581714cea0b364e3edd4ab7729896b71bcaf1c4
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P d396379ac9fdf7d9d0de128bd51a08a0b0a5509d
-R e01b8cb506b25875ab9c986187eeb094
+P 86bf6c2faf5798c2fc022e13d20925ba8bfc43f6
+R bfef11e5eed2d75744de8e5ff1304491
 U aldo
-Z 3993e128f239bedc78b9bd299816b227
+Z 7096d3022011e64d577f21216c42741c
 # Remove this line to create a well-formed Fossil manifest.
