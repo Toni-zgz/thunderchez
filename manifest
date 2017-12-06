@@ -1,5 +1,5 @@
-C use\smemv\sinstead\sof\smemq\sfor\sstring-replace
-D 2017-12-06T16:55:40.463
+C use\smemv\sinstead\sof\smemq\sfor\sstring-replace\s(comment\sfix)
+D 2017-12-06T16:56:04.885
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -335,10 +335,10 @@ F sxml/sxslt-advanced.scm 576ba8f8ae2ef8db4830f9308080a5e4ea5ae9cf
 F sxml/to-html.sls 1e600b5bcbe98224287bcf07fc204cae3742dafb
 F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
-F thunder-utils.sls f923c377206f91ea410bf91654451dbe5e5a0c78
+F thunder-utils.sls eaab74fa4174a12eb24aa05d40788f166fb64bc7
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 37a97684bf8e265cc51e476458534e8781e24c9a
-R 294e5e4340454904025bd8f156b735fd
+P d53b96b8b6f6b8c6fb474ba013e12d9da39c8ebe
+R 27655029244ca92835e217d0e6c6fb02
 U aldo
-Z 688073504c8978f58b08f60b525ffdff
+Z 00bd44a8b98087a151485e1c03faca5e
 # Remove this line to create a well-formed Fossil manifest.
