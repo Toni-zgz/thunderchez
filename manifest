@@ -1,4 +1,4 @@
-C Update\sreadme\sto\sreflect\ssdl\sversion\sin\suse\n
+C Initial\sSDL_Mixer\ssupport\n
 D 2018-01-08T17:10:50
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
@@ -130,6 +130,9 @@ F sdl2/log-functions.ss b02d27839857d086ce19376b57a22184be029a8e
 F sdl2/main-functions.ss da39852b2f73d4d0742420154cff4fc17697cbf9
 F sdl2/messagebox-functions.ss c242804c99af464487fe77d41a024d00bdf90fc5
 F sdl2/messagebox-types.ss 59607b9be202081477a2907ebb9beb0356067541
+F sdl2/mix-functions.ss e33389ab0ce7663a9e09810772dc090b7fb86e41
+F sdl2/mix-types.ss 815dc2ca4c500d380bc3c9a720e9f0bc24a98b7f
+F sdl2/mixer.sls e538318b18342bbb014ab0ffe6ce46eabe11cccf
 F sdl2/mouse-functions.ss 5eaed797ed2ef622cf5aaca6db61a4fcc9a11835
 F sdl2/mouse-types.ss f66035b91eb83752e72196d6abf8e0d0e02420ff
 F sdl2/mutex-functions.ss 5294a4bcc23c8d45440856837172d8fe4ea101d4
@@ -137,7 +140,7 @@ F sdl2/mutex-types.ss 5835650c287a08e688fa143f94ac53e37fc537d6
 F sdl2/net-functions.ss b70ffbaf04e04788a0bba898db1b9b7201b15bab
 F sdl2/net-types.ss fbee7196629906d0b662533a42d1212e35cb32a6
 F sdl2/net.sls 8e1873a9263b8f7cd4dcbc264673fdbff1d4dc9c
-F sdl2/parse-sdl-json.ss 22237c7721de7c818ad855a0b2a8186d25bff902
+F sdl2/parse-sdl-json.ss b7b8dd758e875e446d797b8430a998315f37ab2a
 F sdl2/pixels-functions.ss 15975fd137cb2289d819d97da39bfded82d64aee
 F sdl2/pixels-types.ss 0c51e9dbb192e6cfe97a75c890fe149fb3fb14fc
 F sdl2/platform-functions.ss 97dca9a63077f913deb80331cc7d63258376f411
@@ -153,6 +156,8 @@ F sdl2/scancode-types.ss a6b683d0bc258db9dc0a53b783ed9cb7888f279a
 F sdl2/sdl-functions.ss 9d9cec609bd1b6d7a701f048c03f300265a0621c
 F sdl2/sdl2-image.json 32304e1e483adaa127be10d0c6e02943b904ce42
 F sdl2/sdl2-image.sexp 4d7adc746516d96aa3f11e86363a0f01cd0b0541
+F sdl2/sdl2-mixer.json 39835439ed04276c8c82c8ba56b68f28494970a1
+F sdl2/sdl2-mixer.sexp 3a36cb76c7bf31e6f5d212cb9ded19ae5ad3916d
 F sdl2/sdl2-net.json 05a34cb031ecb83e903aed11d3444c1c3fa72298
 F sdl2/sdl2-net.sexp 5091a138c0b5da92f5b1b52ec6e5309ca19c32ea
 F sdl2/sdl2-ttf-real.sexp 695c9f73ae9a74317f9ee2bddf5b829eb5ec7c74
@@ -354,7 +359,7 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls eaab74fa4174a12eb24aa05d40788f166fb64bc7
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 186525ea12454d9d6acf1ba323b38149a2b0a9ac
+P 6556d2a8a0afb96085e6bfde30de8af278f5a3ab
 U ovenpasta@users.noreply.github.com
-Z fcdbdd26e1ea12dd95bcdffce444872f
+Z 2b7c106322b01b5844b2fdba4f4b04a3
 # Remove this line to create a well-formed Fossil manifest.
