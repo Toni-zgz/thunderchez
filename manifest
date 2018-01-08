@@ -1,4 +1,4 @@
-C SDL_Image\sadded\n
+C Initial\sSDL_ttf\ssupport\n
 D 2018-01-08T17:10:50
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
@@ -90,6 +90,10 @@ F posix/errno-linux.ss d9c4281d5d0e949bc061e27c71b168c28e0dc25f
 F posix/errno.sls a3c57da0e98e689bf5405647186aec2640cab64f
 F scgi.sls 1e66577155b7fa0fdb10c2a3a38bf6266aefded4
 F sdl2.sls dd1e332171f1584cd917514c12afac2ef2ac8ac2
+F sdl2/#base-types.ss# b1a7b9295d2d74d2eb7e82ca604e6069453f2fdd
+F sdl2/#net-types.ss# fbee7196629906d0b662533a42d1212e35cb32a6
+F sdl2/#ttf-function.ss# eafd652336fc539ebf3dcf4bd3e9ab5cd98f549b
+F sdl2/#ttf-shim.h# c83c6dea7ca6ee66d16ca2a5be99187a57d52228
 F sdl2/README b089b455c1c27cc43c42df83ea6b76ca0b8fc8c2
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
 F sdl2/assert-types.ss 0e134654a046b80888447f915d45aaec97b2b9fe
@@ -118,7 +122,9 @@ F sdl2/hints-functions.ss 58a67dafa2cd536f76bdccd4f440f67b14b2ab91
 F sdl2/hints-types.ss 7b6119bf3781428ecc69eda4ed326593af2ead07
 F sdl2/image-functions.ss 4f589c53ba274923e311ca228f29638ebe1f1ebc
 F sdl2/image-types.ss da39a3ee5e6b4b0d3255bfef95601890afd80709
+F sdl2/image-types.ss~ d25edc61c4100dd0f8ad1cfc0db7f0f9a90940ad
 F sdl2/image.sls d8792ec5b03640545e9d4b03c2945a4485405506
+F sdl2/image.sls~ a4979b67d4fc4633d36582dfd99b276ba45f92ed
 F sdl2/init.ss 9164e688a1f46e88936ae4ffb632f94100a19ca2
 F sdl2/joystick-functions.ss daf1966c994177a09b6b7fd01b357efe5d2fa1b8
 F sdl2/joystick-types.ss b139414c0935b1d2506c2b1bf540c97457559be2
@@ -137,7 +143,7 @@ F sdl2/mutex-types.ss 5835650c287a08e688fa143f94ac53e37fc537d6
 F sdl2/net-functions.ss b70ffbaf04e04788a0bba898db1b9b7201b15bab
 F sdl2/net-types.ss fbee7196629906d0b662533a42d1212e35cb32a6
 F sdl2/net.sls 8e1873a9263b8f7cd4dcbc264673fdbff1d4dc9c
-F sdl2/parse-sdl-json.ss 2e09644d5e9c6562775ba542ae500c7f734b8cf7
+F sdl2/parse-sdl-json.ss 22237c7721de7c818ad855a0b2a8186d25bff902
 F sdl2/pixels-functions.ss 15975fd137cb2289d819d97da39bfded82d64aee
 F sdl2/pixels-types.ss 0c51e9dbb192e6cfe97a75c890fe149fb3fb14fc
 F sdl2/platform-functions.ss 97dca9a63077f913deb80331cc7d63258376f411
@@ -155,6 +161,8 @@ F sdl2/sdl2-image.json 32304e1e483adaa127be10d0c6e02943b904ce42
 F sdl2/sdl2-image.sexp 4d7adc746516d96aa3f11e86363a0f01cd0b0541
 F sdl2/sdl2-net.json 05a34cb031ecb83e903aed11d3444c1c3fa72298
 F sdl2/sdl2-net.sexp 5091a138c0b5da92f5b1b52ec6e5309ca19c32ea
+F sdl2/sdl2-ttf-real.sexp 695c9f73ae9a74317f9ee2bddf5b829eb5ec7c74
+F sdl2/sdl2-ttf.json dd4d7d78af0c3377ebe70b827744032e64b5074f
 F sdl2/sdl2.json 1bc81e19fd727f55210e839db48b0a81797ff50a
 F sdl2/sdl2.sexp 014fe04fd84018490e83fcd16f27124cdd6e338b
 F sdl2/surface-functions.ss dc06ba10744a4a0af4615389ac9765851fa5a150
@@ -166,6 +174,23 @@ F sdl2/timer-functions.ss 03d839a0ce6feec6a96266a89936ee091491a57b
 F sdl2/timer-types.ss c1381719293c9d4bb44336c1238baab086e35695
 F sdl2/touch-functions.ss 6b68443559d29c8cf693b4bd28871756ece3121b
 F sdl2/touch-types.ss 62935f4166955d611ec0e763f98c57d06bfc0d61
+F sdl2/ttf-function.ss~ 36231719a0e105f0c696cf31a9768df9795ba8bc
+F sdl2/ttf-functions.ss bbba3da9851f013890707f27a339df48f4549cbf
+F sdl2/ttf-functions.ss~ 634d47f0b3ae211dd4c139c3be54b37c85e07fa2
+F sdl2/ttf-shim-functions.ss 29656fff104e225cc36c3a3f15ee1ad12287a320
+F sdl2/ttf-shim.c~ 99e82d30870f81e3e104b22550eae74fb72a37dc
+F sdl2/ttf-shim.h~ c0a5ad5d1beb662840d4104f345b08d1612f2f94
+F sdl2/ttf-shim.json 4d8d0cfde2a86a087d1691e5a26cb714b2400700
+F sdl2/ttf-shim.sexp 15c1f23408c8d15c988a9fe77c52d2619836f067
+F sdl2/ttf-shim/ttf-shim.c 5dc60edf13c3e3de1236f944b48874288d391d85
+F sdl2/ttf-shim/ttf-shim.c~ 5eba8bd1ecdff04d0dff68f376c1a95221795080
+F sdl2/ttf-shim/ttf-shim.h c60fa313fe9bb12c47041b384bfd638b9ab883b2
+F sdl2/ttf-shim/ttf-shim.h~ 0dd43dc24cb5e7f6d45b9a90ac2b9dcc4cbe9fe3
+F sdl2/ttf-shim/ttf-shim.o 60f0a3303d16cb4b488b206f7fc23080b4825f5f
+F sdl2/ttf-shim/ttfshim.so 45ceb931766359eadd6c00f29c4abdb04cbc7a10 x
+F sdl2/ttf-types.ss 4140001fbf60855c721a5f5bab4ba37765b44bd3
+F sdl2/ttf.sls 5899dab62843ee15d82b97dcc952a5cf0b7ff6e3
+F sdl2/ttf.sls~ 1cef80461082a295d63aa4d46871106943d7afda
 F sdl2/version-functions.ss 592812022553ea58978579c11c86961102e1a670
 F sdl2/version-types.ss 9dc40bb3ddb06b59e07e5b459df388a1ef7b0610
 F sdl2/video-functions.ss 61ca383b71f5976f8e66a60403fbd765774ba715
@@ -342,9 +367,7 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls eaab74fa4174a12eb24aa05d40788f166fb64bc7
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 4405ad641b816677a43f939e7485b49051df9d1a
-T *branch * trunk
-T *sym-trunk *
+P 0e3c53a30ecceab2a18d0cb94adb82a12f92cca5
 U ovenpasta@users.noreply.github.com
-Z e2c54689738864766c23cd4ee07846f0
+Z e42c2d9fd4171b97898e86377e1405c1
 # Remove this line to create a well-formed Fossil manifest.
