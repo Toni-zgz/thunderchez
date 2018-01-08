@@ -1,4 +1,4 @@
-C cleanup\n
+C cleanup2\n
 D 2018-01-08T17:10:50
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
@@ -170,7 +170,6 @@ F sdl2/touch-functions.ss 6b68443559d29c8cf693b4bd28871756ece3121b
 F sdl2/touch-types.ss 62935f4166955d611ec0e763f98c57d06bfc0d61
 F sdl2/ttf-functions.ss bbba3da9851f013890707f27a339df48f4549cbf
 F sdl2/ttf-shim-functions.ss 29656fff104e225cc36c3a3f15ee1ad12287a320
-F sdl2/ttf-shim.h~ c0a5ad5d1beb662840d4104f345b08d1612f2f94
 F sdl2/ttf-shim.json 4d8d0cfde2a86a087d1691e5a26cb714b2400700
 F sdl2/ttf-shim.sexp 15c1f23408c8d15c988a9fe77c52d2619836f067
 F sdl2/ttf-shim/ttf-shim.c 5dc60edf13c3e3de1236f944b48874288d391d85
@@ -354,7 +353,7 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls eaab74fa4174a12eb24aa05d40788f166fb64bc7
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 31b4446932af419efceb21105df502d91660bdd4
+P 9ec8f1434c7428cfae07ebd6e485974f106d8dd9
 U ovenpasta@users.noreply.github.com
-Z 7a471b9447a17dc008f2b4b5151b5b55
+Z c39973593d9c2f303ee3514b697873a1
 # Remove this line to create a well-formed Fossil manifest.
