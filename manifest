@@ -1,4 +1,4 @@
-C cleanup2\n
+C readme\sfor\sshim\n
 D 2018-01-08T17:10:50
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
@@ -172,6 +172,7 @@ F sdl2/ttf-functions.ss bbba3da9851f013890707f27a339df48f4549cbf
 F sdl2/ttf-shim-functions.ss 29656fff104e225cc36c3a3f15ee1ad12287a320
 F sdl2/ttf-shim.json 4d8d0cfde2a86a087d1691e5a26cb714b2400700
 F sdl2/ttf-shim.sexp 15c1f23408c8d15c988a9fe77c52d2619836f067
+F sdl2/ttf-shim/readme.md 6f9c572a5edffd5e1ce29601969776e374fe2317
 F sdl2/ttf-shim/ttf-shim.c 5dc60edf13c3e3de1236f944b48874288d391d85
 F sdl2/ttf-shim/ttf-shim.h c60fa313fe9bb12c47041b384bfd638b9ab883b2
 F sdl2/ttf-shim/ttfshim.so 45ceb931766359eadd6c00f29c4abdb04cbc7a10 x
@@ -353,7 +354,7 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls eaab74fa4174a12eb24aa05d40788f166fb64bc7
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 9ec8f1434c7428cfae07ebd6e485974f106d8dd9
+P c60c0be058a5a9d53cf354a62480943f84690ea5
 U ovenpasta@users.noreply.github.com
-Z c39973593d9c2f303ee3514b697873a1
+Z 0113e171814bec2000faacad79bcdcd4
 # Remove this line to create a well-formed Fossil manifest.
