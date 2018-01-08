@@ -1,5 +1,5 @@
-C use\smemv\sinstead\sof\smemq\sfor\sstring-replace\s(comment\sfix)
-D 2017-12-06T16:56:04.885
+C SDL_Image\sadded\n
+D 2018-01-08T17:10:50
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -89,18 +89,18 @@ F posix/errno-c-eval.ss eb85172af1b5ab1fa38f80ee58c49d3897b53e16
 F posix/errno-linux.ss d9c4281d5d0e949bc061e27c71b168c28e0dc25f
 F posix/errno.sls a3c57da0e98e689bf5405647186aec2640cab64f
 F scgi.sls 1e66577155b7fa0fdb10c2a3a38bf6266aefded4
-F sdl2.sls 0d60af6b908603c017531496e1bff95ec3a7af63
+F sdl2.sls dd1e332171f1584cd917514c12afac2ef2ac8ac2
 F sdl2/README b089b455c1c27cc43c42df83ea6b76ca0b8fc8c2
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
 F sdl2/assert-types.ss 0e134654a046b80888447f915d45aaec97b2b9fe
-F sdl2/atomic-functions.ss 88af5b2c9dd5569a105154d826715504f04020e8
+F sdl2/atomic-functions.ss a18c9de5f1e10c458d2ca6d410f724b1454568a1
 F sdl2/atomic-types.ss d603438919f4406160a73c1e1190c1388d74ae48
-F sdl2/audio-functions.ss 40725fead1ea56fbb6812beff1cede75bf0f30ef
-F sdl2/audio-types.ss 2b173c04ba1583be8615eccb2f75f713e0db19de
-F sdl2/base-types.ss b87b42d97c123c994b563a65dc6e113baf8dd861
+F sdl2/audio-functions.ss 523aa39870c91c314a591cf431826d4487a3b2c3
+F sdl2/audio-types.ss c775cd04f4b5b5168672fc2b7c304c91921f3000
+F sdl2/base-types.ss 4453c02a04f28ce58e54cb33d2801ffa3c0bf4f4
 F sdl2/blendmode-types.ss 25a3037ebbf0df087e0f3c80671aa149cb656792
 F sdl2/clipboard-functions.ss 01eed0f20ef0de2a6bd3ffa38ad13f7832724b15
-F sdl2/cpuinfo-functions.ss 7802faad18e619f4f268035c74ea4e766981c066
+F sdl2/cpuinfo-functions.ss 68b2d7e7b0ee23d189c8652ff2c33a41d603e04c
 F sdl2/endian-functions.ss c5be3b4ea3ffe1a6559a8b9ed070a6691e7ce7f8
 F sdl2/error-functions.ss 4c7334767c268f59c8ba56f09ed89f155c28db76
 F sdl2/error-types.ss d07e575f34ebe3a5b7d5f095cf3425d9a3c98d7e
@@ -109,16 +109,19 @@ F sdl2/events-types.ss 0f51d0dd85009faa4feca07353b18b0e74bfda25
 F sdl2/extras.ss c8ac5896f5e9bb5da98b212048b597745eec127f
 F sdl2/ffi.ss 225fe1c9c643acde417036075f52c16cb8322d23
 F sdl2/filesystem-functions.ss 098ca35a4e5fd1e18973d74a0a4eb7b0de3a0a44
-F sdl2/gamecontroller-functions.ss fcd837835c1061ef161affde14eccc4b13eadeea
+F sdl2/gamecontroller-functions.ss b9fd5df6ad997491db340a0e004774c7e0edf61e
 F sdl2/gamecontroller-types.ss 1071e03ee473ca446a5a0199300552f0ab649bca
 F sdl2/gesture-functions.ss 1050da24319e5696221eea97474fa43afb4113e0
 F sdl2/gesture-types.ss 2513a3158900a7bdeb414d323b4f4b735ce860cb
 F sdl2/guardian.ss ca6021b044843496b99cfb727af8666a7c3a246b
 F sdl2/hints-functions.ss 58a67dafa2cd536f76bdccd4f440f67b14b2ab91
 F sdl2/hints-types.ss 7b6119bf3781428ecc69eda4ed326593af2ead07
+F sdl2/image-functions.ss 4f589c53ba274923e311ca228f29638ebe1f1ebc
+F sdl2/image-types.ss da39a3ee5e6b4b0d3255bfef95601890afd80709
+F sdl2/image.sls d8792ec5b03640545e9d4b03c2945a4485405506
 F sdl2/init.ss 9164e688a1f46e88936ae4ffb632f94100a19ca2
-F sdl2/joystick-functions.ss 253784d8c7a153691f2c8a71682300b2983c3a28
-F sdl2/joystick-types.ss 8acb4427884c8a1751f95593e21664d8e9bdbb56
+F sdl2/joystick-functions.ss daf1966c994177a09b6b7fd01b357efe5d2fa1b8
+F sdl2/joystick-types.ss b139414c0935b1d2506c2b1bf540c97457559be2
 F sdl2/keyboard-functions.ss 83dd221bdda9eb596f6bbd2aadda1966ef7887ae
 F sdl2/keyboard-types.ss aafe35859f8b721b985bbb4fb6da31a47da5d49a
 F sdl2/keycode-types.ss c0f86443320d6cc6833f7dc615bc3d9fd6ea969a
@@ -133,8 +136,8 @@ F sdl2/mutex-functions.ss 5294a4bcc23c8d45440856837172d8fe4ea101d4
 F sdl2/mutex-types.ss 5835650c287a08e688fa143f94ac53e37fc537d6
 F sdl2/net-functions.ss b70ffbaf04e04788a0bba898db1b9b7201b15bab
 F sdl2/net-types.ss fbee7196629906d0b662533a42d1212e35cb32a6
-F sdl2/net.sls 67de3d726d14e0ab74c6a0206a7eb4dac5cdae00
-F sdl2/parse-sdl-json.ss 2344b250882da7317211acd2bdbf2b086e3b3e78
+F sdl2/net.sls 8e1873a9263b8f7cd4dcbc264673fdbff1d4dc9c
+F sdl2/parse-sdl-json.ss 2e09644d5e9c6562775ba542ae500c7f734b8cf7
 F sdl2/pixels-functions.ss 15975fd137cb2289d819d97da39bfded82d64aee
 F sdl2/pixels-types.ss 0c51e9dbb192e6cfe97a75c890fe149fb3fb14fc
 F sdl2/platform-functions.ss 97dca9a63077f913deb80331cc7d63258376f411
@@ -144,15 +147,17 @@ F sdl2/rect-types.ss 176fb306504991fa52442e8082d30ec619b583dc
 F sdl2/render-functions.ss f47d5864a86de33c09a3f8ca9de12e06f679f711
 F sdl2/render-types.ss a9ca21afc56487b34947e3399e43b95556899c21
 F sdl2/romeladen.bmp a4b487683f3d102d5d86b03d11b73a050951be52
-F sdl2/rwops-functions.ss 764ad85780ed29e95a2ee9bd542780b6febc94af
-F sdl2/rwops-types.ss 53cabb57b11995333de347fb5b2cfce62adab351
+F sdl2/rwops-functions.ss 0e99bf4def51ebd4bae90d2073c104d254c4bb1a
+F sdl2/rwops-types.ss 100c0214b12971645483234d6cc1ba6a3c1e4b79
 F sdl2/scancode-types.ss a6b683d0bc258db9dc0a53b783ed9cb7888f279a
 F sdl2/sdl-functions.ss 9d9cec609bd1b6d7a701f048c03f300265a0621c
-F sdl2/sdl2-net.json ff4311988a67923b78901573360b40d348dd9d28
-F sdl2/sdl2-net.sexp b1470ea61ac73c635d352cd03b5790d0c187113d
-F sdl2/sdl2.json 9b7f3d10ea29f9a4418e8bf9054274df6b93b8ef
-F sdl2/sdl2.sexp 263e66936e719ffc1fa00c3b490562387a17f5d3
-F sdl2/surface-functions.ss 8ab35121c19ee066ec68a79f4a92b9e20f0edd89
+F sdl2/sdl2-image.json 32304e1e483adaa127be10d0c6e02943b904ce42
+F sdl2/sdl2-image.sexp 4d7adc746516d96aa3f11e86363a0f01cd0b0541
+F sdl2/sdl2-net.json 05a34cb031ecb83e903aed11d3444c1c3fa72298
+F sdl2/sdl2-net.sexp 5091a138c0b5da92f5b1b52ec6e5309ca19c32ea
+F sdl2/sdl2.json 1bc81e19fd727f55210e839db48b0a81797ff50a
+F sdl2/sdl2.sexp 014fe04fd84018490e83fcd16f27124cdd6e338b
+F sdl2/surface-functions.ss dc06ba10744a4a0af4615389ac9765851fa5a150
 F sdl2/surface-types.ss 312ab81a639b3dcae3d687770128013644237bce
 F sdl2/system-functions.ss 098ca35a4e5fd1e18973d74a0a4eb7b0de3a0a44
 F sdl2/thread-functions.ss 23b2c68a24156b821097bf04fe54d3afaa4c9708
@@ -337,8 +342,9 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls eaab74fa4174a12eb24aa05d40788f166fb64bc7
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P d53b96b8b6f6b8c6fb474ba013e12d9da39c8ebe
-R 27655029244ca92835e217d0e6c6fb02
-U aldo
-Z 00bd44a8b98087a151485e1c03faca5e
+P 4405ad641b816677a43f939e7485b49051df9d1a
+T *branch * trunk
+T *sym-trunk *
+U ovenpasta@users.noreply.github.com
+Z e2c54689738864766c23cd4ee07846f0
 # Remove this line to create a well-formed Fossil manifest.
