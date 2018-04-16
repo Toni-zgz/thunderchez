@@ -120,7 +120,7 @@
     (call-with-port (open-file-output-port path)
 		    (lambda (p) (put-bytevector p data))))
 
-  
+  ;; from https://fare.livejournal.com/189741.html
   (define-syntax (nest stx)
     (syntax-case stx ()
       ((nest outer ... inner)

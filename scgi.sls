@@ -77,6 +77,7 @@
        (listen sock 1000)
        (do ()
 	   (#f)
+	 (printf "scgi: active children: ~d~n" nchildren)
 	 (printf "scgi: waiting for connection...~n")
 	 (call-with-port
 	  (accept sock)

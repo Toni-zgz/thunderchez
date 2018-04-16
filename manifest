@@ -1,5 +1,5 @@
-C Initial\sSDL_Mixer\ssupport\n
-D 2018-01-08T17:10:50
+C small\sfixes
+D 2018-04-16T15:02:56.824
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -56,7 +56,7 @@ F glu.sls 8200e1174cb38c63c68d171685e8f0327d611f5b
 F glut.sls 3de56e892d0253fa096bdcec038f3af6e7969fda
 F irregex-utils.sls 198ea9bf44843c480dfc8bae452762385b222176
 F irregex.sls 91b31943a4abea27dc54b68a39ccd8317b84ee96
-F json.sls 9f17629afaa56d4546b1f84919f598b4dad1507a
+F json.sls 95f22b5b388dc9528e9c9e89dfa0edc2674a5e29
 F lalr/README 84dd973836e11f277f5a88ddc8933cc2a43a2f8e
 F lalr/associators.ss f4bcc1a3770c3c417d38613fa967cc683c078dad
 F lalr/lalr-test.ss 89949d7adc1ddd11fd20a132d91e3a2fd003f48c
@@ -88,7 +88,7 @@ F posix.sls 84d59a345748afcb46b6bf7a7ede7a864cf9f394
 F posix/errno-c-eval.ss eb85172af1b5ab1fa38f80ee58c49d3897b53e16
 F posix/errno-linux.ss d9c4281d5d0e949bc061e27c71b168c28e0dc25f
 F posix/errno.sls a3c57da0e98e689bf5405647186aec2640cab64f
-F scgi.sls 1e66577155b7fa0fdb10c2a3a38bf6266aefded4
+F scgi.sls f237c2d8d45f7a9ddbb9d6ced649877fae61bca8
 F sdl2.sls dd1e332171f1584cd917514c12afac2ef2ac8ac2
 F sdl2/README 631d6ae2f45ef29a6e54e495f18216ca560c0ffd
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
@@ -342,8 +342,8 @@ F srfi/tests/tmp1 6ee05b31e0afcfe3187454c84519550704da8a26
 F srfi/tests/vectors.sps 0cd33d7fa66ec5ed16a817210d992125f835cd7a
 F sxml.sls 5697c1e5311b5a6babc994dc1ae7bc5d2cae5ba9
 F sxml/README.md 64570767511fab6d06c356b72a3c0194542fe505
-F sxml/SXML-to-HTML-ext.scm 0916a7a50ddc037c3982fd2f78f0cf878a268e58
-F sxml/SXML-to-HTML.scm a00b9bc5b963cd27d91bbeeed303c60a3d20312f
+F sxml/SXML-to-HTML-ext.scm e8f0a06c7efbaf235973584595ca314b0dca5d87
+F sxml/SXML-to-HTML.scm e25ab317a6564d98dcaffcd03bea12ce1887a635
 F sxml/SXML-tree-trans.scm 5feeeb3a6e444bf8ef7ae0e342e5bf2e6ce4865e
 F sxml/match.sls 3f5d8e5e3a556af734623242758dd5f702989a6b
 F sxml/ssax-impl.ss 819fd193a4b1d7648deb0e4ab14381d5c454e9ba
@@ -357,9 +357,10 @@ F sxml/sxslt-advanced.scm 576ba8f8ae2ef8db4830f9308080a5e4ea5ae9cf
 F sxml/to-html.sls 1e600b5bcbe98224287bcf07fc204cae3742dafb
 F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
-F thunder-utils.sls eaab74fa4174a12eb24aa05d40788f166fb64bc7
+F thunder-utils.sls 7b9e6aa46ba7380d69d2d29190732bf491f151f9
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 6556d2a8a0afb96085e6bfde30de8af278f5a3ab
-U ovenpasta@users.noreply.github.com
-Z 2b7c106322b01b5844b2fdba4f4b04a3
+P 242c2111567316ed2451c3e738b4f153706f47a5
+R 1bc2fc705c6d2aa46b6fa238f6e530a2
+U aldo
+Z d18ace19ef7015e1b9770eba21d83ac4
 # Remove this line to create a well-formed Fossil manifest.

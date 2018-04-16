@@ -196,7 +196,7 @@
  (define (json->string json)
    (define special '((#\backspace . #\b) (#\newline . #\n) (#\alarm . #\a) 
 		     (#\return . #\r) (#\tab #\t) (#\\ . #\\) (#\" . #\")))
-   (cond [(and (pair? json) (eq? (car json) 'dict))
+   (cond [(and (pair? json)  (eq? (car json) '@))
 	  (string-append 
 	   "{\n"
 	   (string-intersperse
