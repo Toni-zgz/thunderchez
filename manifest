@@ -1,5 +1,5 @@
-C added\ssqlite3-config-log\sand\ssqlite3-busy-timeout
-D 2018-12-09T15:17:02.795
+C added\sscgi-before-fork-hook
+D 2018-12-09T15:17:28.859
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -88,7 +88,7 @@ F posix.sls 84d59a345748afcb46b6bf7a7ede7a864cf9f394
 F posix/errno-c-eval.ss eb85172af1b5ab1fa38f80ee58c49d3897b53e16
 F posix/errno-linux.ss d9c4281d5d0e949bc061e27c71b168c28e0dc25f
 F posix/errno.sls a3c57da0e98e689bf5405647186aec2640cab64f
-F scgi.sls f237c2d8d45f7a9ddbb9d6ced649877fae61bca8
+F scgi.sls 4e18943d6bf5809395c9826f6cbc58ded98c0c6c
 F sdl2.sls dd1e332171f1584cd917514c12afac2ef2ac8ac2
 F sdl2/README 631d6ae2f45ef29a6e54e495f18216ca560c0ffd
 F sdl2/assert-functions.ss e3c01736b4e134dce807e6e4279e1a9fe872b952
@@ -359,8 +359,8 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls 7b9e6aa46ba7380d69d2d29190732bf491f151f9
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P bd1b6794356880e8e9a3888eaee0932acc3092c1
-R 83108c9214b91df02ab30a996ca27ae3
+P 73c6d80c360f605d16515908ca8619dfd80469c8
+R ed44456826a9bd7d70a0bf0104dda723
 U aldo
-Z f70257973db2447fdf16223760da2f4f
+Z dc482dcf05191de8e073165e10dd71a4
 # Remove this line to create a well-formed Fossil manifest.
