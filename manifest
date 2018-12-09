@@ -1,5 +1,5 @@
-C small\sfixes
-D 2018-04-16T15:02:56.824
+C added\ssqlite3-config-log\sand\ssqlite3-busy-timeout
+D 2018-12-09T15:17:02.795
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -189,7 +189,7 @@ F sdl2/video-functions.ss 61ca383b71f5976f8e66a60403fbd765774ba715
 F sdl2/video-types.ss 9c1fc33e44873fde4f514ba3d781f70e1945c3a4
 F socket.sls be09dda683b979fd812c29b293fb372ae539d507
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
-F sqlite3.sls 09e1fac762556fa296771f406bcbf0419fb11301
+F sqlite3.sls 2a12dcaede03340405008a2b5bc04b5a774764f0
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
 F srfi/README 262f75f2ee44c2fd427d304244c669b29755e930
 F srfi/private/OS-id-features.sls d18764a9fcdda3704b7c2a4710f05f8210a3ae2f
@@ -359,8 +359,8 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls 7b9e6aa46ba7380d69d2d29190732bf491f151f9
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 242c2111567316ed2451c3e738b4f153706f47a5
-R 1bc2fc705c6d2aa46b6fa238f6e530a2
+P bd1b6794356880e8e9a3888eaee0932acc3092c1
+R 83108c9214b91df02ab30a996ca27ae3
 U aldo
-Z d18ace19ef7015e1b9770eba21d83ac4
+Z f70257973db2447fdf16223760da2f4f
 # Remove this line to create a well-formed Fossil manifest.

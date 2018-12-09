@@ -12,6 +12,7 @@
                                         ;define-function
   set-busy-handler!
                                         ;make-busy-timeout
+  sqlite3-busy-timeout
   interrupt!
   auto-committing?
   change-count
@@ -47,7 +48,8 @@
   enable-shared-cache!
   enable-load-extension!
 
-  sqlite3-trace)
+  sqlite3-trace
+  sqlite3-config-log)
 
  (import
   (chezscheme)
@@ -125,6 +127,8 @@
  (define sqlite3:type-index (enum-set-indexer sqlite3:type-enum))
  (define (sqlite3:type-ref index)
    (list-ref (enum-set->list sqlite3:type-enum) index))
+
+ 
 
  ;; Auxiliary types
 
@@ -237,6 +241,10 @@
    (check-database 'set-busy-handler! db)
    (database-busy-handler-set! db handler))
 
+ (define (sqlite3-busy-timeout db ms)
+   (let ([f (foreign-procedure "sqlite3_busy_timeout" (sqlite3:database* int) int)])
+     (f (database-addr db) ms)))
+ 
  (define (database-addr db)
    (ftype-pointer-address (database-ptr db)))
 
@@ -373,7 +381,7 @@
               (make-statement (ftype-&ref sqlite3:statement** (*) ptr) db)]
              [else
               (case (number->sqlite3:status e)
-                [(busy)
+                #;[(busy)
                  (let ([h (database-busy-handler db)])
                    (cond
                     [(and h (h db retries))
@@ -810,8 +818,11 @@
    (check-database 'sqlite3-trace db)
    (let ([f (foreign-procedure "sqlite3_trace" (sqlite3:database* void* void*) void)])
      (f (database-addr db) func data)))
- 
- (foreign-procedure "sqlite3_trace" ( void* void*) void)
+
+ (define (sqlite3-config-log func data)
+   ;(check-database 'sqlite3-config-log db)
+   (let ([f (foreign-procedure "sqlite3_config" (int void* void*) void)])
+     (f 16 func data)))
 
  (record-writer
   (type-descriptor database)
