@@ -1,12 +1,12 @@
-C changed\ssignature\sof\scairo-write-func-t\sand\scairo-read-func-t
-D 2018-12-09T15:20:02.737
+C changed\scairo-pdf-surface-create-for-stream\sclosure\sparameter\sto\sptr
+D 2018-12-09T15:20:49.309
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
 F c-eval.sls e2e3d8d3eb7fffa53ee8b1173927eb4688c22951
 F cairo.sls d69560c5c0d0f11c7070339aa05f41498663d4d2
 F cairo/cairo-functions.ss 69d24d252c64f26b231a74c07f98cadb0d049ea3
-F cairo/cairo-pdf-functions.ss 42c4d04d54aa32057bbd802090baa03a5e9bd209
+F cairo/cairo-pdf-functions.ss 099345ea23e52ca8e90da4d78c3bb11e14505d62
 F cairo/cairo-pdf.json c1cb1cdf654b3e7295c197694a4b1600e7cdf103
 F cairo/cairo-pdf.sexp 96272c21f42a5ed483a85db3b7d8c560c69f1d7a
 F cairo/cairo.json 5b7e921453eb868267205896a04b82b6850822c1
@@ -359,8 +359,8 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls 7b9e6aa46ba7380d69d2d29190732bf491f151f9
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 2f15dd43ce5d37adc756703de9532da29af38f75
-R 5b33861c9ff1b985a3db335847585869
+P 13f43a0da08846b335ee96f31a730377f57b5579
+R 43976bd196ff9f9989b65443fb59f0b1
 U aldo
-Z 2cf17bf83d9f12ced1eb19a364071bdc
+Z f8678e3516895f127d55e1d75254c85b
 # Remove this line to create a well-formed Fossil manifest.
