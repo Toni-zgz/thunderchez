@@ -1,5 +1,5 @@
-C added\sbytevector\sto\sjson->string\soutputs\sverbatim
-D 2018-12-09T15:19:17.521
+C changed\ssignature\sof\scairo-write-func-t\sand\scairo-read-func-t
+D 2018-12-09T15:20:02.737
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -15,7 +15,7 @@ F cairo/ffi-utils.ss 8c27ef8585a5bbc27bcb0aaf2aff320ac4508d35
 F cairo/parse-json.ss 55242f150ce1ff833051d9904e9c225517269da4
 F cairo/romedalen.png 5f902202277e94e544bc9197049572e725cbad60
 F cairo/test.ss cd94c919f0bca07afdef22f2544eae81557690db
-F cairo/types.ss f9a25bff375e25a83e9381a1a7a29bd4fadac9fa
+F cairo/types.ss 42c9a2be47fc1816fac7452d5443e9f496c57359
 F curl.sls a682ff7d7ee45e93b8b4826d8cd963ded63d7dfa
 F data-structures.scm 12ac5a7885fe4171901718edfc62354527d4a41a
 F data-structures.sls 3639d2015bc3ab6b9b6a00da99641be02d347b7b
@@ -359,8 +359,8 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls 7b9e6aa46ba7380d69d2d29190732bf491f151f9
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 791b935228419abe10beb87163405a52d77a8913
-R 31367f4b4b9c45992c2fecdeae7dd85f
+P 2f15dd43ce5d37adc756703de9532da29af38f75
+R 5b33861c9ff1b985a3db335847585869
 U aldo
-Z 71742abbfbd6a7c0c0969534ef0cb3c3
+Z 2cf17bf83d9f12ced1eb19a364071bdc
 # Remove this line to create a well-formed Fossil manifest.
