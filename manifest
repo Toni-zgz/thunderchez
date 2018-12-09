@@ -1,5 +1,5 @@
-C added\sscgi-before-fork-hook
-D 2018-12-09T15:17:28.859
+C improved\snn-recv
+D 2018-12-09T15:18:34.895
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -73,7 +73,7 @@ F lmdb/parse-json.ss f91b0c26deb333b2c5a1c47e7c65b040afe03698
 F match.html c4d2e35bf279b1e2b070c4135cc29aa84ed01c41
 F match.ss 00ee082ba05dc55dfbb7dc843f74f4aa64325c9d
 F matchable.sls da0a355b270aa7ef20457e2124761cffa1018e57
-F nanomsg.sls d2a2af90fa56f25aa3283d8396e8812254316a72
+F nanomsg.sls 9ae3b9313d97732314e2c38c66d2c1bee7402c10
 F nanomsg/bus c3a7129577312fa79c835392687d5bc04c73983a x
 F nanomsg/local-repl 682b6eea78199d77ce33102cce319ff31a0383e3 x
 F nanomsg/pair c7bfab5957144a27020b66b1acf5da2a7c8ddea5 x
@@ -359,8 +359,8 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls 7b9e6aa46ba7380d69d2d29190732bf491f151f9
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 73c6d80c360f605d16515908ca8619dfd80469c8
-R ed44456826a9bd7d70a0bf0104dda723
+P 04a3625e95557e77db665fc5e32a3f7e60bf4c4d
+R 7396b667ec698b9a87fd9ad6eba74a18
 U aldo
-Z dc482dcf05191de8e073165e10dd71a4
+Z d239b6b690f43e56eaf30a86a5aff1df
 # Remove this line to create a well-formed Fossil manifest.
