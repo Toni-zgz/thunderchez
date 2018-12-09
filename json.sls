@@ -224,6 +224,8 @@
 					'()
 					(string->list json)))
 			 "\"" )]
+	 [(bytevector? json)
+	  (utf8->string json)]		
    
 	 [(symbol? json)
 	  (json->string (symbol->string json))]
