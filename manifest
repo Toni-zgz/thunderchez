@@ -1,5 +1,5 @@
 C fixed\sbug\sfor\sin\sargs-fold.sls\sthanks\sto\sanonymous
-D 2018-12-09T15:35:27.657
+D 2018-12-09T15:41:45.389
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -255,7 +255,7 @@ F srfi/s27/random-bits.sls dedd08510630fa8b994005a78f413560356215d5
 F srfi/s27/random.ss e7643c99de3b2a6b888d9d7d20b54a21521c07e4
 F srfi/s27/readme 2dc090ee925b1eb4af1f4b365a72c534f317d40b
 F srfi/s31/rec.sls 53f39546058c40e8c06f7997f5779c8c4d6e21bf
-F srfi/s37/args-fold.sls 5b3592a15a8a297783273093ba09252f7d3f549e
+F srfi/s37/args-fold.sls 49f133f318959c43a91f6e3ef3d69607a8e25d0d
 F srfi/s37/srfi-37-reference.scm 6a4337b3c3a0af58f07c0895b56c9d11175d25cd
 F srfi/s38/with-shared-structure.chezscheme.sls 040622c1e67b83418bb96af114e2868ca17e26b7
 F srfi/s38/with-shared-structure.ikarus.sls 27634fdda9c6e8478f1038983761c3441738c625
@@ -361,8 +361,8 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls bb8d60127e0fea6f528bfd1bcc23d7c06a0f4818
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 2b9e9a26086207254b0e489f877b854ca41fc570
-R 1cf78eebcff6a733dee4e458b544f2ff
+P 75d1b77428091e763cc24d2336fec9e39bbe6023
+R 041839938adbf662a5c70401d886b5b1
 U aldo
-Z 647cd37eb3fbb4792aaaa9160b1215ab
+Z 69bd3d3545bc47997703a2180b14f2c8
 # Remove this line to create a well-formed Fossil manifest.
