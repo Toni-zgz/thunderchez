@@ -1,5 +1,5 @@
-C changed\scairo-pdf-surface-create-for-stream\sclosure\sparameter\sto\sptr
-D 2018-12-09T15:20:49.309
+C added\sredis
+D 2018-12-09T15:21:26.051
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -88,6 +88,8 @@ F posix.sls 84d59a345748afcb46b6bf7a7ede7a864cf9f394
 F posix/errno-c-eval.ss eb85172af1b5ab1fa38f80ee58c49d3897b53e16
 F posix/errno-linux.ss d9c4281d5d0e949bc061e27c71b168c28e0dc25f
 F posix/errno.sls a3c57da0e98e689bf5405647186aec2640cab64f
+F redis.sls a81b4237cd2a51a8f999b78f70c69b6032fb4f21
+F redis/main.scm 8e4f2874806213d602590361009ec862ae0354e9
 F scgi.sls 4e18943d6bf5809395c9826f6cbc58ded98c0c6c
 F sdl2.sls dd1e332171f1584cd917514c12afac2ef2ac8ac2
 F sdl2/README 631d6ae2f45ef29a6e54e495f18216ca560c0ffd
@@ -359,8 +361,8 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls 7b9e6aa46ba7380d69d2d29190732bf491f151f9
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 13f43a0da08846b335ee96f31a730377f57b5579
-R 43976bd196ff9f9989b65443fb59f0b1
+P a7e9ec9d65de3a80a13a74076342489054353f60
+R 0d60c9c0fbb6c954fe42960b1d820d6a
 U aldo
-Z f8678e3516895f127d55e1d75254c85b
+Z 1111e4fffa2fc9df154eb93454b5dff6
 # Remove this line to create a well-formed Fossil manifest.
