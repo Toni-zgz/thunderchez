@@ -1,5 +1,5 @@
-C added\slibrary\sqrencode
-D 2018-12-09T17:58:12.914
+C add\ssql\sfield\sto\ssqlite3\sstatement
+D 2019-04-11T18:15:56.601
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -192,7 +192,7 @@ F sdl2/video-functions.ss 61ca383b71f5976f8e66a60403fbd765774ba715
 F sdl2/video-types.ss 9c1fc33e44873fde4f514ba3d781f70e1945c3a4
 F socket.sls be09dda683b979fd812c29b293fb372ae539d507
 F sql-null.sls b4377f6efb38955835cdec3b3e7af6c779498c79
-F sqlite3.sls 2a12dcaede03340405008a2b5bc04b5a774764f0
+F sqlite3.sls 4bb86b5c646a49f44f24982c375ee147500808da
 F srfi/LICENSE 568626b1e19c5df8e02966da2c82f51ffc9a5085
 F srfi/README 262f75f2ee44c2fd427d304244c669b29755e930
 F srfi/private/OS-id-features.sls d18764a9fcdda3704b7c2a4710f05f8210a3ae2f
@@ -362,8 +362,8 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls bb8d60127e0fea6f528bfd1bcc23d7c06a0f4818
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 723d9456e847e92480a837c46095ae081182b58e
-R 169963477d9f09fb0feee7b7a881f1b6
+P 7182389a979353bda3d9480972289816eb648c34
+R be7e37fe191acf107701febc65de905e
 U aldo
-Z 74e77c835e0cf7dad9b65f363fc18ff5
+Z 4f41097bbd404331341bbae5ba8c118b
 # Remove this line to create a well-formed Fossil manifest.

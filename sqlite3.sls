@@ -157,16 +157,8 @@
  (define-record-type statement
    (fields
     (mutable ptr)
-    (mutable database)))
-
-                                        ;(record-writer
-                                        ; (type-descriptor statement)
-                                        ; (lambda (r p wr)
-                                        ;   (wr
-                                        ;    (if (statement-ptr r)
-                                        ;        (format "#<sqlite3:statement sql=~s>" (source-sql r))
-                                        ;        "#<sqlite3:statement zombie>")
-                                        ;    p)))
+    (mutable database)
+    (mutable sql)))
 
                                         ;(define-check+error-type statement)
 
@@ -294,7 +286,7 @@
    (let* ([f (foreign-procedure "sqlite3_next_stmt" (sqlite3:database*) sqlite3:statement*)]
           [stmt* (f (database-addr db))])
      (make-statement (make-ftype-pointer sqlite3:statement* stmt*)
-                     db)))
+                     db "")))
 
  (define finalize!
    (case-lambda
@@ -378,7 +370,7 @@
             [nByte (bytevector-length zSql)]
             [e (sqlite3_prepare_v2 (database-addr db) zSql nByte (ftype-pointer-address ptr) #f)])
        (cond [(equal? e 0)
-              (make-statement (ftype-&ref sqlite3:statement** (*) ptr) db)]
+              (make-statement (ftype-&ref sqlite3:statement** (*) ptr) db sql)]
              [else
               (case (number->sqlite3:status e)
                 #;[(busy)
@@ -832,6 +824,15 @@
          "#<sqlite3:database>"
          "#<sqlite3:database zombie>")
      p)))
+ (record-writer
+  (type-descriptor statement)
+  (lambda (r p wr)
+    (wr
+     (if (statement-ptr r)
+         (format "#<sqlite3:statement sql=~s>" (statement-sql r))
+         "#<sqlite3:statement zombie>")
+     p)))
+
 
  ) ; library sqlite3
 
