@@ -1,5 +1,5 @@
-C updated\sirregex
-D 2024-09-27T18:19:17.700
+C merge\s7164164ed6
+D 2024-09-27T18:29:47.641
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -56,7 +56,7 @@ F glu.sls 8200e1174cb38c63c68d171685e8f0327d611f5b
 F glut.sls 3de56e892d0253fa096bdcec038f3af6e7969fda
 F irregex-utils.sls 198ea9bf44843c480dfc8bae452762385b222176
 F irregex.sls 109619adba57c0f8c83af43a013006e7a155dadb
-F json.sls f803c3c2c4105e4b60cc786f0bd0302041161dff
+F json.sls 0f963615d3c1f61a7cb623e3e8f6bd9f2c2e5cec
 F lalr/README 84dd973836e11f277f5a88ddc8933cc2a43a2f8e
 F lalr/associators.ss f4bcc1a3770c3c417d38613fa967cc683c078dad
 F lalr/lalr-test.ss 89949d7adc1ddd11fd20a132d91e3a2fd003f48c
@@ -362,8 +362,8 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls bb8d60127e0fea6f528bfd1bcc23d7c06a0f4818
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P 538cf8286e5c52ed750f925af26c246346f21a95
-R 2aef63c0713b897773bd23ceaa92b693
+P a8011c42a0fd1c40ecd224f8f8807f163edb80cb 7164164ed67bb936dcb68596599a98e41ef5e4b3
+R a181464f715ffb4c85198c1e5db014bc
 U aldo
-Z 4ee655515ef0862db8a60745e7dfaa65
+Z 89aa5fabb282ad3ccda2cff91a70f959
 # Remove this line to create a well-formed Fossil manifest.
