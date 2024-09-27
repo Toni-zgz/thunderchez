@@ -1,5 +1,5 @@
-C merge\s7164164ed6
-D 2024-09-27T18:29:47.641
+C fix\s%3a\sinclude\sissue\sin\ssrfi\s42
+D 2024-09-27T20:42:02.600
 F APACHE-2.0 2b8b815229aa8a61e483fb4ba0588b8b6c491890
 F README.md e8789a9a149976b93c83a1b64dd9caece6820583
 F base64.sls 141996582599a9e8e9a2c91bc6ffa230a13e6f4c
@@ -271,7 +271,7 @@ F srfi/s41/streams/derived.sls dcf15fed2012513d118e585c07b5bc657a2ac91a
 F srfi/s41/streams/primitive.sls 00e666cce42dfd355e4a898bdac5174cf16849a2
 F srfi/s41/test.sps 62cb2f949f9d132069c40e52d89882fb5071bddd
 F srfi/s42/_eager-comprehensions-a.sls ef493c9ce19351767b31ac66a3df1690e7f52419
-F srfi/s42/_eager-comprehensions.sls ba91eb64f1ecccfd71373458471aced40e32c88b
+F srfi/s42/_eager-comprehensions.sls cf1fa96e4ffd40c38759c172e727c8e4ac035fb4
 F srfi/s42/design.scm 6034df3ff363f653befe99f7c489a881db0e0726
 F srfi/s42/eager-comprehensions.sls 04a5869671db6d7b8f920fbe015cb1c01f11b6df
 F srfi/s42/ec.scm 0b8200f7e6aa198f9d78b6ecb27a856be8c64dca
@@ -362,8 +362,8 @@ F sxml/tree-trans.sls d9c70abce0b5ff09befe38568505fac82fa6847b
 F sxml/utils.ss dc844ca31d9aef97b43aca201f8ee41d1f11cc22
 F thunder-utils.sls bb8d60127e0fea6f528bfd1bcc23d7c06a0f4818
 F usb.sls 0bc8220e661bf5d2382cec74f44e8718743c5268
-P a8011c42a0fd1c40ecd224f8f8807f163edb80cb 7164164ed67bb936dcb68596599a98e41ef5e4b3
-R a181464f715ffb4c85198c1e5db014bc
+P 6834d66b604fac430d17ed52af2e42099ab1adf4
+R 3d77a46910ce7b294d9f125b40b20435
 U aldo
-Z 89aa5fabb282ad3ccda2cff91a70f959
+Z d12970b0058171667ab584c1d3670a74
 # Remove this line to create a well-formed Fossil manifest.

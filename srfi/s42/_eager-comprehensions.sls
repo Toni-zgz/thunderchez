@@ -22,5 +22,5 @@
     (srfi private include))
   
   (SRFI-23-error->R6RS "(library (srfi s42 eager-comprehensions))"
-   (include/resolve ("srfi" "%3a42") "ec.scm"))  
+   (include/resolve ("srfi" "s42") "ec.scm"))  
 )
